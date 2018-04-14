@@ -1,0 +1,97 @@
+extends ../layouts/layout.pug
+
+block site__content
+  .breadcrumbs
+    .container
+      .breadcrumbs_block
+        h1 New Arrivals
+        ul#breadcrumbs
+          li
+            a(href='#') home
+          |                 /
+          li
+            a(href='#') women
+          |                 /
+          li
+            a.current(href='#') new arrivals
+  .item_foto_blok
+    a.angle(href='#')
+      i.fa.fa-angle-left(aria-hidden='true')
+    .item_foto
+      img(src='assets/img/singlePage/item-foto.png', alt='Moschino Cheap And Chic')
+    a.angle(href='#')
+      i.fa.fa-angle-right(aria-hidden='true')
+  .container
+    .item_details_blok
+      .item_category_name_block
+        .item_category_name Women Collection
+        .item_category_poloska_1
+        .item_id_name Moschino Cheap And Chic
+      .item_composition_price
+        .item_discription
+          | Compellingly actualize fully researched processes before proactive outsourcing.
+          | Progressively syndicate collaborative architectures before cutting-edge services.
+          | Completely visualize parallel core competencies rather than exceptional portals.
+        .item_composition
+          .material
+            | MATERIAL:
+            span COTTON
+          .disainer
+            | DESIGNER:
+            span BINBURHAN
+        .item_id_price $561
+      .item_category_poloska_3
+      .item_specification
+        .item__details
+          | CHOOSE COLOR
+          select#color(title='color')
+            option(value='red') Red
+            option(value='green') Green
+            option(value='black') Black
+        .item__details
+          | CHOOSE SIZE
+          select#size(title='size')
+            option(value='red') XXL
+            option(value='green') XL
+            option(value='black') L
+        .item__details
+          | QUANTITY
+          input(type='number', placeholder='1')
+      a(href='shoppingCart.html')
+        img(src='assets/img/singlePage/cart.png', alt='')
+        | Add to Cart
+  .you_may_like.container
+    h3 you may like also
+  .catalog.container
+    .item
+      img.item_img(src='assets/img/singlePage/1.jpg', alt='BLAZE LEGGINGS')
+      .card-name BLAZE LEGGINGS
+      .card-price $52.00
+      a.item_hover(href='#')
+        span.card
+          img.card_img(src='img/card_img.png', alt='')
+          | Add to Cart
+    .item
+      img.item_img(src='assets/img/singlePage/2.jpg', alt='ALEXA SWEATER')
+      .card-name ALEXA SWEATER
+      .card-price $52.00
+      a.item_hover(href='#')
+        span.card
+          img.card_img(src='img/card_img.png', alt='')
+          | Add to Cart
+    .item
+      img.item_img(src='assets/img/singlePage/3.jpg', alt='AGNES TOP')
+      .card-name AGNES TOP
+      .card-price $52.00
+      a.item_hover(href='#')
+        span.card
+          img.card_img(src='img/card_img.png', alt='')
+          | Add to Cart
+    .item
+      img.item_img(src='assets/img/singlePage/1.jpg', alt='SYLVA SWEATER')
+      .card-name SYLVA SWEATER
+      .card-price $52.00
+      a.item_hover(href='#')
+        span.card
+          img.card_img(src='img/card_img.png', alt='')
+          | Add to Cart

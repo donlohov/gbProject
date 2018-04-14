@@ -1,0 +1,393 @@
+//для product
+.catalog_product_menu
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+
+.catalog_product_categories_blok
+  width: 246px
+
+.catalog_product_categories_blok details[open]
+  .close_open_details
+    background-image: url("../img/product/open_details.png")
+    color: #ef5b70
+  .catalog_product_categories span
+    color: #ef5b70
+  .catalog_product_categories
+    border-bottom: 0
+
+.catalog_product_categories
+  width: 246px
+  height: 36px
+  border-left: 5px solid #ef5b70
+  border-bottom: 1px solid #ebebeb
+  margin-bottom: 20px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  cursor: pointer
+
+.catalog_product_categories::-webkit-details-marker
+  display: none
+
+.catalog_product_categories:focus
+  outline: none
+
+.catalog_product_categories span
+  margin-left: 12px
+  margin-right: 9px
+  cursor: pointer
+  font-size: 14px
+  font-weight: 500
+  text-transform: uppercase
+
+.close_open_details
+  width: 9px
+  height: 6px
+  background-image: url("../img/product/close_details.png")
+
+.catalog_product_categories_nav_details li
+  list-style-type: none
+  margin-top: -7px
+
+.catalog_product_categories_nav_details a
+  text-decoration: none
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 41px
+  margin-left: 17px
+
+.catalog_product_categories_nav_details ul:last-child
+  margin-bottom: 26px
+  margin-top: -12px
+
+.catalog_product_menu
+  margin-top: -4px
+
+.catalog_product_filter
+  width: 850px
+  height: 117px
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  text-transform: uppercase
+
+.cat_pr_filter_trending
+  margin-left: 3px
+
+.cat_pr_filter_trending
+  .href
+    width: 194px
+    display: flex
+    flex-wrap: wrap
+    text-align: center
+    align-items: center
+    margin-top: 13px
+    margin-left: 1px
+
+.cat_pr_filter_trending a
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  text-decoration: none
+  text-transform: none
+
+.cat_pr_filter_trending span
+  color: #dfdfdf
+  margin-left: 11px
+  margin-right: 10px
+
+.cat_pr_filter_size
+  margin-left: 76px
+
+.cat_pr_filter_size form
+  margin-top: 13px
+  height: 51px
+  width: 272px
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-start
+  align-items: center
+
+.size-checkbox
+  height: 16px
+  display: flex
+  align-items: center
+
+.checkbox-1
+  width: 69px
+
+.checkbox-2
+  width: 70px
+
+.checkbox-3
+  width: 62px
+
+.checkbox-4
+  width: 56px
+
+.checkbox-5
+  width: 69px
+
+.checkbox-6
+  width: 70px
+
+.checkbox-7
+  width: 66px
+
+.cat_pr_filter_size input
+  margin-right: 9px
+  margin-left: 1px
+
+.cat_pr_filter_size label
+  color: #6f6e6e
+  font-family: "Open Sans", sans-serif
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+  margin-right: 21px
+
+.cat_pr_filter_price
+  width: 262px
+
+.cat_pr_filter_price
+  .label
+    margin-top: 9px
+
+#label_range
+  -webkit-appearance: none
+  width: 261px
+  border-radius: 3px
+  height: 5px
+  background-color: #f0f0f0
+
+#label_range::-webkit-slider-thumb
+  -webkit-appearance: none
+  background-color: #f16d7f
+  width: 17px
+  height: 17px
+  border-radius: 10px
+  cursor: pointer
+
+#label_range::-moz-range-track
+  width: 100%
+  border-radius: 3px
+  height: 5px
+  background-color: #f0f0f0
+
+#label_range::-moz-range-thumb
+  background-color: #f16d7f
+  width: 17px
+  height: 17px
+  border-radius: 10px
+  border: 0
+  cursor: pointer
+
+.cat_pr_filter_price
+  .prices
+    display: flex
+    justify-content: space-between
+    margin-top: 13px
+
+.catalog_product_sort
+  width: 850px
+  height: 53px
+  margin-bottom: 45px
+  background-color: #f3f3f3
+  display: flex
+  align-items: center
+
+.cat_prod_sort
+  margin-left: 13px
+  width: 154px
+  height: 33px
+  border: 1px solid #ebebeb
+  background-color: #ffffff
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  display: flex
+  justify-content: flex-end
+  align-items: baseline
+
+#sort_by
+  padding-left: 8px
+
+.cat_prod_sort select:hover
+  cursor: pointer
+
+.cat_prod_sort label
+  padding-right: 10px
+  line-height: 32px
+  border-right: 1px solid #ebebeb
+
+.cat_prod_sort select
+  width: 86px
+  height: 30px
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  border: 0
+  background: #fff
+  outline: none
+
+.cat_prod_show
+  margin-left: 8px
+  width: 122px
+  height: 33px
+  border: 1px solid #ebebeb
+  background-color: #ffffff
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  display: flex
+  justify-content: flex-end
+  align-items: baseline
+
+#show
+  padding-left: 10px
+
+.cat_prod_show select:hover
+  cursor: pointer
+
+.cat_prod_show label
+  padding-right: 10px
+  line-height: 32px
+  border-right: 1px solid #ebebeb
+
+.cat_prod_show select
+  width: 65px
+  height: 30px
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  border: 0
+  background: #fff
+  line-height: 32px
+  outline: none
+
+.select
+  display: flex
+  justify-content: flex-end
+  align-items: center
+
+.select span
+  position: absolute
+  margin-left: -8px
+
+.item_catalog
+  width: 848px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.paginator
+  width: 264px
+  height: 47px
+  border-radius: 3px
+  border: 1px solid #ebebeb
+  background-color: #ffffff
+  display: flex
+  justify-content: space-evenly
+  align-items: center
+
+.paginator i
+  width: 8px
+  height: 13px
+  color: #aaaaaa
+  font-size: 20px
+  font-weight: 400
+  line-height: 26.15px
+
+.paginator i:hover
+  color: #ef5b70
+
+.paginator a
+  text-decoration: none
+  color: #c4c4c4
+  font-size: 16px
+  font-weight: 300
+  line-height: 26px
+  padding: 10px 8px 10px 8px
+
+.paginator a:hover
+  color: #ef5b70
+
+#paginator_active_link
+  color: #ef5b70
+
+.catalog_product_footer
+  display: flex
+  justify-content: space-between
+
+.catalog_product_footer button
+  width: 151px
+  height: 44px
+  margin-top: 2px
+  border-radius: 3px
+  border: 1px solid #ef5b70
+  background-color: #ffffff
+  color: #ef5b70
+  font-size: 16px
+  font-weight: 300
+  line-height: 26px
+  cursor: pointer
+
+//блок с особенностями
+.catalog_product
+  margin-top: 70px
+  margin-bottom: 60px
+
+.adv_product_box
+  width: 100%
+  background-color: #222224
+  margin-top: 50px
+
+.adv_product
+  display: flex
+  height: 340px
+  justify-content: space-between
+  align-items: center
+
+.adv_product_block
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-bottom: 16px
+  margin-left: 20px
+  margin-right: 20px
+
+.adv_product_block_img
+  margin-bottom: 18px
+
+.adv_product_block_title
+  color: #fbfbfb
+  font-size: 20px
+  font-weight: 700
+  letter-spacing: 0.5px
+  margin-bottom: 10px
+
+.adv_product_block_txt
+  text-align: center
+  width: 318px
+  color: #fbfbfb
+  font-size: 14px
+  font-weight: 300
+  line-height: 23.95px
+  letter-spacing: 0.35px
+  margin-bottom: 10px

@@ -1,0 +1,71 @@
+/* header */
+
+.header
+  display flex
+  align-items center
+  &__logo
+    margin-right 37px
+  &-search
+    height 38px
+    display flex
+    align-items center
+    flex-wrap nowrap
+    &-button
+      &__link
+        height 100%
+        color #222222
+        font-size 14px
+        font-weight 300
+        letter-spacing 0.35px
+        background-color #f9f9f9
+        border-radius 3px 0 0 3px
+        border 1px solid #e6e6e6
+        padding 10px 20px 10px 17px
+        &:hover
+          color #222222
+        &::after
+          color #838383
+    &-form
+      height 100%
+      display flex
+      align-items center
+      flex-wrap nowrap
+      width 11em
+      &__input
+        height 100%
+        font-size 14px
+        letter-spacing 0.5px
+        border 1px solid #e6e6e6
+        border-radius 0
+        border-left 0
+        border-right 0
+        padding-left 15px
+        padding-right 5px
+      &__button
+        height 100%
+        width 35px
+        font-size 14px
+        color #838383
+        background #ffffff
+        border-radius 0 3px 3px 0
+        border 1px solid #e6e6e6
+  &-shopCart
+    display flex
+    align-items center
+    justify-content space-around
+    &__img
+      width 32px
+      height 29px
+    &-button
+      &__link
+        color #ffffff
+        background-color #f16d7f
+        line-height 39px
+        font-size 14px
+        font-weight 300
+        letter-spacing 0.35px
+        border 1px solid #e6e6e6
+        padding 10px 21px 9px 17px
+    &__link:hover
+      color #222222
+      text-decoration none

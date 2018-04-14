@@ -1,0 +1,158 @@
+extends ../layouts/layout.pug
+
+block site__content
+  .breadcrumbs
+    .container
+      .breadcrumbs_block
+        h1 New Arrivals
+        ul#breadcrumbs
+          li
+            a(href='#') home
+          |                     /
+          li
+            a(href='#') women
+          |                     /
+          li
+            a.current(href='#') new arrivals
+  .container
+    .checkout_blok
+      details
+        summary.checkout_blok_name
+          span 01.
+          span Shipping Adress
+        .checkout_blok_details
+          .checkout_blok_left
+            .checkout_blok_title
+              | Check as a guest or register
+              div Register with us for future convenience
+            .checkout_as_guest_all
+              .checkout_as_guest
+                input#checkout_as_guest(type='radio', title='checkout as guest')
+                label.checkout_as_guest_lable(for='checkout_as_guest') checkout as guest
+              .checkout_as_guest
+                input#register(type='radio', title='register')
+                label.checkout_as_guest_lable(for='checkout_as_guest') register
+            .checkout_blok_title
+              | register and save time!
+              div Register with us for future convenience
+            .checkout_href
+              a(href='')
+                i.fa.fa-angle-double-right(aria-hidden='true')
+                | Fast and easy checkout
+              a(href='')
+                i.fa.fa-angle-double-right(aria-hidden='true')
+                | Easy access to your
+                |                                 order history and status
+            input#checkout_registr_submit_continue(type='submit', value='Continue')
+          .checkout_blok_right
+            .checkout_blok_title
+              | Already registed?
+              div Please log in below
+            .checkout_login
+              label.checkout_password(for='email') EMAIL ADDRESS
+              input#email(type='email', title='email')
+            .checkout_login
+              label.checkout_password(for='password') password
+              input#password(type='password', title='password')
+            input#checkout_registr_submit(type='submit', value='Log in')
+      .checkout_blok_poloska
+      details
+        summary.checkout_blok_name
+          span 02.   BILLING INFORMATION  			\
+        .checkout_blok_details
+          ul
+            li
+              a(href='#') Home
+            li
+              a(href='#') Man
+            li
+              a(href='#') Women
+            li
+              a(href='#') Kids
+            li
+              a(href='#') Accoseriese
+            li
+              a(href='#') Featured
+            li
+              a(href='#') Hot Deals
+      .checkout_blok_poloska
+      details
+        summary.checkout_blok_name
+          span 03.   SHIPPING INFORMATION 
+        .checkout_blok_details
+          ul
+            li
+              a(href='#') Home
+            li
+              a(href='#') Man
+            li
+              a(href='#') Women
+            li
+              a(href='#') Kids
+            li
+              a(href='#') Accoseriese
+            li
+              a(href='#') Featured
+            li
+              a(href='#') Hot Deals
+      .checkout_blok_poloska
+      details
+        summary.checkout_blok_name
+          span 04.   SHIPPING METHOD 
+        .checkout_blok_details
+          ul
+            li
+              a(href='#') Home
+            li
+              a(href='#') Man
+            li
+              a(href='#') Women
+            li
+              a(href='#') Kids
+            li
+              a(href='#') Accoseriese
+            li
+              a(href='#') Featured
+            li
+              a(href='#') Hot Deals
+      .checkout_blok_poloska
+      details
+        summary.checkout_blok_name
+          span 05.   PAYMENT METHOD 
+        .checkout_blok_details
+            ul
+              li
+                a(href='#') Home
+              li
+                a(href='#') Man
+              li
+                a(href='#') Women
+              li
+                a(href='#') Kids
+              li
+                a(href='#') Accoseriese
+              li
+                a(href='#') Featured
+              li
+                a(href='#') Hot Deals
+      .checkout_blok_poloska
+      details
+        summary.checkout_blok_name
+          span 06.   ORDER REVIEW 
+        .checkout_blok_details
+          ul
+            li
+              a(href='#') Home
+            li
+              a(href='#') Man
+            li
+              a(href='#') Women
+            li
+              a(href='#') Kids
+            li
+              a(href='#') Accoseriese
+            li
+              a(href='#') Featured
+            li
+              a(href='#') Hot Deals
+      .checkout_blok_poloska

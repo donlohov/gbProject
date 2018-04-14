@@ -1,0 +1,57 @@
+{
+  "open-in-browser.default": "'chrome'",
+  // Определяет, должно ли запрашиваться подтверждение при удалении файла в корзину
+  "explorer.confirmDelete": false,
+  // Определяет, должно ли запрашиваться подтверждение при перемещении файлов и папок в проводнике
+  "explorer.confirmDragAndDrop": false,
+   // Управляет видимостью панели действий на рабочем месте.
+  "workbench.activityBar.visible": true,
+  // Управляет отображением вертикальных полей глифа в редакторе. Поля глифа в основном используются для отладки
+  "editor.glyphMargin": false,
+  // Автоматически обновлять расширения
+  "extensions.autoUpdate": true,
+  // При открытии файла editor.tabSize и editor.insertSpaces будут определяться на основе содержимого файла
+  "editor.detectIndentation": false,
+  // Определяет, должны ли в редакторе отображаться управляющие символы
+  "editor.renderControlCharacters": false,
+  // Число пробелов табуляции
+  "editor.tabSize": 2,
+  // Номера линий
+  "editor.lineNumbers": "on",
+  // Сортировать по
+  "explorer.sortOrder": "type",
+  // Создание нескольких курсоров
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "off",
+  // Открывать файл в новом окне
+  "window.openFilesInNewWindow": "off",
+  // Сохранение файла
+  "files.autoSave": "afterDelay",
+  // Настройте масштаб окна.
+  "window.zoomLevel": -1,
+  // Размер шрифта и шрифт
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  // Если этот параметр включен, при сохранении файла будут удалены концевые пробелы.
+  "files.trimTrailingWhitespace": true,
+  // Иконки
+  "workbench.iconTheme": "vscode-icons",
+  // Включено ли автоматическое получение
+  "git.autofetch": true,
+  // Подтвердите синхронизацию репозиториев GIT.
+  "git.confirmSync": false,
+  // Определяет, какой редактор отображается при запуске
+  "workbench.startupEditor": "newUntitledFile",
+  // Определяет расположение боковой панели: слева или справа от рабочего места.
+  "workbench.sideBar.location": "right",
+
+  "emmet.excludeLanguages": [
+    "pug"
+  ],
+
+  "[jade]": {
+
+  },
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "toggle"
+}

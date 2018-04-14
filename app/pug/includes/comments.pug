@@ -1,0 +1,38 @@
+section.comments
+  .container.flexCenter
+    .comments-commentSlider
+      #carouselExampleIndicators.carousel.slide.comments-commentSlider__items(data-ride='carousel')
+        ol.carousel-indicators
+          li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+          li(data-target='#carouselExampleIndicators', data-slide-to='1')
+          li(data-target='#carouselExampleIndicators', data-slide-to='2')
+        .carousel-inner
+          .carousel-item.active
+            img.comments-commentSlider__img(src='assets/img/commentSliderImg-1.png')
+            .comments-commentSlider__description
+              | “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+              .comments-commentSlider__title
+                | Bin Burhan
+              span.comments-commentSlider__span Dhaka, Bd
+          .carousel-item
+            img.comments-commentSlider__img(src='assets/img/commentSliderImg-1.png')
+            .comments-commentSlider__description
+              | “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+              .comments-commentSlider__title
+                | Bin Burhan
+              span.comments-commentSlider__span Dhaka, Bd
+          .carousel-item
+            img.comments-commentSlider__img(src='assets/img/commentSliderImg-1.png')
+            .comments-commentSlider__description
+              | “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+              .comments-commentSlider__title
+                | Bin Burhan
+              span.comments-commentSlider__span Dhaka, Bd
+
+    .comments-subscribe
+      h3 Subscribe
+      p FOR OUR NEWSLETTER AND PROMOTION
+      form.form-inline.comments-form
+        input.form-control.form__input(id='navbarDropdown' type='search', placeholder='Search for item...', aria-label='Search')
+        button.btn.btn-outline-success.button.form__button(type='submit') subscribe
+//comments

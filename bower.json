@@ -1,0 +1,23 @@
+{
+  "name": "houp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "donlohov <donlohov@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0",
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^5.0.9"
+  }
+}
