@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eafed623-0afa-4eb3-97e1-5a6a57469b0b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/blocks/bot-nav/bot-nav.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/breadcrumbs/breadcrumbs.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/catalog/catalog.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/categories/categories.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/checkout.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/comments/comments.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/offer/offer.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/product/product.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/shoppingCart.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blocks/singlePage.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/includes/bot-nav.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/includes/comments.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/pages/checkout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/pages/product.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/pages/shoppingCart.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pug/pages/singlePage.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/bot-nav.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/catalog-bestItems.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/categories.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/comments.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/cover/cover.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/cover/cover.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/footer/footer.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/footer/footer.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/header/header.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/header/header.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/header/top-nav-content.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/header/top-nav-content.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/items/button.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/items/button.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/items/search-form.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/items/shopCart.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/offer.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/site/site.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/site/site.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blocks/top-nav/top-nav.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/top-nav/top-nav.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pug/includes/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/includes/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pug/includes/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/includes/head.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pug/includes/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/includes/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pug/includes/main-menu.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/includes/top-nav.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pug/layouts/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/layouts/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styl/vars.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/styl/vars.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/app/pug/pages/index.pug" />
+    </disable_hints>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="houp" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.80443287">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="156">
+                  <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="19" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <splitter split-orientation="vertical" split-proportion="0.5951294">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="cover.styl" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/blocks/cover/cover.styl">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="51">
+                      <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="vars.styl" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/app/styl/vars.styl">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="164">
+                      <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+        <option value="Stylus File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>browse__link</find>
+      <find>browse</find>
+      <find>для сингл</find>
+      <find>:</find>
+      <find>cover</find>
+      <find>l</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/blocks/logo/logo.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/site/shopCart.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/site/button.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/items/logo.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/items/search-form" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/blocks/body/body.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/header/searchShopCart.styl" />
+        <option value="$PROJECT_DIR$/app/styl/mixins.styl" />
+        <option value="$PROJECT_DIR$/dist/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/app/offer.styl" />
+        <option value="$PROJECT_DIR$/app/pug/includes/head.pug" />
+        <option value="$PROJECT_DIR$/app/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/app/blocks/bot-nav.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/items/form.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/comments.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/offer.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/catalog-bestItems.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/footer/bot-nav.styl" />
+        <option value="$PROJECT_DIR$/app/pug/includes/footer.pug" />
+        <option value="$PROJECT_DIR$/app/blocks/bot-nav/bot-nav.styl" />
+        <option value="$PROJECT_DIR$/app/pug/includes/bot-nav.pug" />
+        <option value="$PROJECT_DIR$/app/pug/includes/comments.pug" />
+        <option value="$PROJECT_DIR$/app/blocks/comments/comments.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/items/search-form.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/items/shopCart.styl" />
+        <option value="$PROJECT_DIR$/app/pug/includes/header.pug" />
+        <option value="$PROJECT_DIR$/app/blocks/items/button.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/categories.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/catalog-bestItems/catalog-bestItems.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/offer/offer.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/breadcrumbs/breadcrumbs.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/breadcrumbs/product.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/header/top-nav-content.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/header/header.styl" />
+        <option value="$PROJECT_DIR$/app/pug/pages/product.pug" />
+        <option value="$PROJECT_DIR$/app/pug/pages/shoppingCart.pug" />
+        <option value="$PROJECT_DIR$/app/pug/pages/checkout.pug" />
+        <option value="$PROJECT_DIR$/app/pug/pages/singlePage.pug" />
+        <option value="$PROJECT_DIR$/app/blocks/singlePage.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/shoppingCart.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/checkout.styl" />
+        <option value="$PROJECT_DIR$/app/pug/layouts/layout.pug" />
+        <option value="$PROJECT_DIR$/app/blocks/footer/footer.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/site/site.styl" />
+        <option value="$PROJECT_DIR$/app/pug/includes/main-menu.pug" />
+        <option value="$PROJECT_DIR$/app/pug/includes/top-nav.pug" />
+        <option value="$PROJECT_DIR$/app/blocks/top-nav/top-nav.styl" />
+        <option value="$PROJECT_DIR$/app/styl/vars.styl" />
+        <option value="$PROJECT_DIR$/app/blocks/cover/cover.styl" />
+        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>serve</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>html</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>css</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>js</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>cssVendor</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>jsVendor</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clean</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>img</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>dist</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>default</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>public</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="328" />
+    <option name="y" value="78" />
+    <option name="width" value="790" />
+    <option name="height" value="623" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file:///home/don/houp/app/index.html" />
+    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/stylus" />
+    <property name="list.type.of.created.stylesheet" value="Stylus" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylus" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.splitter.proportion" value="0.1745283" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/blocks/site" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/blocks/product" />
+      <recent name="$PROJECT_DIR$/app/blocks/categories" />
+      <recent name="$PROJECT_DIR$/app/blocks/catalog-bestItems" />
+      <recent name="$PROJECT_DIR$/app/blocks/offer" />
+      <recent name="$PROJECT_DIR$/app/blocks/comments" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="2" BundledDictionary0="less.dic" BundledDictionary1="vue.dic" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eafed623-0afa-4eb3-97e1-5a6a57469b0b" name="Default" comment="" />
+      <created>1522790811357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522790811357</updated>
+      <workItem from="1522790817372" duration="10335000" />
+      <workItem from="1522804938172" duration="23522000" />
+      <workItem from="1522845293110" duration="2098000" />
+      <workItem from="1522853775602" duration="12876000" />
+      <workItem from="1522868293748" duration="23786000" />
+      <workItem from="1522950909004" duration="9646000" />
+      <workItem from="1522960673180" duration="10275000" />
+      <workItem from="1523009881287" duration="2963000" />
+      <workItem from="1523013780138" duration="17009000" />
+      <workItem from="1523137326560" duration="9941000" />
+      <workItem from="1523251225068" duration="12547000" />
+      <workItem from="1523385781217" duration="4073000" />
+      <workItem from="1523422453713" duration="7820000" />
+      <workItem from="1523441527702" duration="3197000" />
+      <workItem from="1523449289545" duration="1574000" />
+      <workItem from="1523451435108" duration="320000" />
+      <workItem from="1523451857613" duration="24000" />
+      <workItem from="1523453104153" duration="18000" />
+      <workItem from="1523453253328" duration="51000" />
+      <workItem from="1523453678831" duration="259000" />
+      <workItem from="1523468348757" duration="2875000" />
+      <workItem from="1523471345479" duration="1016000" />
+      <workItem from="1523472440686" duration="1180000" />
+      <workItem from="1523473722300" duration="171000" />
+      <workItem from="1523474204068" duration="6369000" />
+      <workItem from="1523494043220" duration="1268000" />
+      <workItem from="1523495694976" duration="11018000" />
+      <workItem from="1523534154652" duration="15139000" />
+      <workItem from="1523564600258" duration="156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="191526000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="328" y="78" width="790" height="623" extended-state="0" />
+    <layout>
+      <window_info id="Gulp" order="1" sideWeight="0.33753502" side_tool="true" weight="0.25475842" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.6834734" weight="0.0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.48821083" />
+      <window_info id="npm" order="3" sideWeight="0.5017123" side_tool="true" weight="0.11904762" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="0" sideWeight="0.31652662" side_tool="true" weight="0.26207906" />
+      <window_info active="true" anchor="bottom" x="682" y="697" width="684" height="71" id="Terminal" internal_type="SLIDING" order="10" visible="true" weight="0.024263432" />
+      <window_info id="Favorites" order="2" sideWeight="0.33640552" side_tool="true" weight="0.24743778" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="CSS Styles" order="11" visible="true" weight="0.3294964" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/styl/vars.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/search-form.styl" />
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/button.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/header/header.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/header/searchShopCart.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styl/vars.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/search-form.styl" />
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/logo.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/head.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="197" selection-start-line="7" selection-start-column="197" selection-end-line="7" selection-end-column="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/bot-nav/bot-nav.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/bot-nav.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/comments/comments.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/search-form.styl" />
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/form.styl" />
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/shopCart.styl" />
+    <entry file="file://$PROJECT_DIR$/app/blocks/items/button.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/comments.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/catalog/catalog.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/offer/offer.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/product/product.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9016">
+          <caret line="392" column="21" selection-start-line="392" selection-start-column="21" selection-end-line="392" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/breadcrumbs/breadcrumbs.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/categories/categories.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/header/searchShopCart.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/checkout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/shoppingCart.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="361" selection-start-line="361" selection-end-line="361" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/product.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="162" column="56" lean-forward="true" selection-start-line="162" selection-start-column="56" selection-end-line="162" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/checkout.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3266">
+          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/shoppingCart.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6551">
+          <caret line="286" column="16" selection-start-line="286" selection-start-column="16" selection-end-line="286" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/singlePage.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/singlePage.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/footer/footer.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styl/mixins.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/site/site.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/body/body.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/layouts/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/header/header.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/header/top-nav-content.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/top-nav/top-nav.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styl/vars.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/top-nav.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blocks/cover/cover.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
