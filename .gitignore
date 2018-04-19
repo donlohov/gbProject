@@ -2,3 +2,4 @@ node_modules/
 app/vendor/
 app/assets/img/
 dist/assets/img/
+.idea/

@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/pug/pages/index.pug" line="48" />
-    <bookmark url="file://$PROJECT_DIR$/app/pug/pages/index.pug" line="21" />
-    <bookmark url="file://$PROJECT_DIR$/app/pug/pages/index.pug" line="3" />
-    <bookmark url="file://$PROJECT_DIR$/app/pug/pages/index.pug" line="121" />
-    <bookmark url="file://$PROJECT_DIR$/app/assets/css/styles.css" line="853" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eafed623-0afa-4eb3-97e1-5a6a57469b0b" name="Default" comment="Оптимизация блока Cover и Categories #1">
-      <change beforePath="$PROJECT_DIR$/app/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/shoppingCart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/singlePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/singlePage.html" afterDir="false" />
+    <list default="true" id="173c6ef7-4e18-49c8-9f78-29288329dfa0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints>
-      <file url="file://$PROJECT_DIR$/app/pug/pages/index.pug" />
-    </disable_hints>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="houp" />
@@ -46,29 +27,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bot-nav.pug" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/pug/includes/bot-nav.pug">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="11" column="29" lean-forward="true" selection-end-line="47" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="singlePage.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/singlePage.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="192" column="7" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="singlePage.pug" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/pug/pages/singlePage.pug">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+                <state relative-caret-position="48">
+                  <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -107,28 +70,6 @@
       </split-second>
     </splitter>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Pug File" />
-        <option value="Stylus File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>browse__link</find>
-      <find>browse</find>
-      <find>для сингл</find>
-      <find>:</find>
-      <find>cover</find>
-      <find>l</find>
-      <find>cat_</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -141,70 +82,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/blocks/body/body.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/header/searchShopCart.styl" />
-        <option value="$PROJECT_DIR$/app/styl/mixins.styl" />
-        <option value="$PROJECT_DIR$/dist/assets/css/styles.css" />
-        <option value="$PROJECT_DIR$/app/offer.styl" />
-        <option value="$PROJECT_DIR$/app/pug/includes/head.pug" />
-        <option value="$PROJECT_DIR$/app/blocks/bot-nav.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/items/form.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/comments.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/offer.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/catalog-bestItems.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/footer/bot-nav.styl" />
-        <option value="$PROJECT_DIR$/app/pug/includes/footer.pug" />
-        <option value="$PROJECT_DIR$/app/blocks/bot-nav/bot-nav.styl" />
-        <option value="$PROJECT_DIR$/app/pug/includes/comments.pug" />
-        <option value="$PROJECT_DIR$/app/blocks/comments/comments.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/items/search-form.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/items/shopCart.styl" />
-        <option value="$PROJECT_DIR$/app/pug/includes/header.pug" />
-        <option value="$PROJECT_DIR$/app/blocks/items/button.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/categories.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/catalog-bestItems/catalog-bestItems.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/offer/offer.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/breadcrumbs/breadcrumbs.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/breadcrumbs/product.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/header/top-nav-content.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/header/header.styl" />
-        <option value="$PROJECT_DIR$/app/pug/pages/product.pug" />
-        <option value="$PROJECT_DIR$/app/pug/pages/shoppingCart.pug" />
-        <option value="$PROJECT_DIR$/app/pug/pages/checkout.pug" />
-        <option value="$PROJECT_DIR$/app/pug/pages/singlePage.pug" />
-        <option value="$PROJECT_DIR$/app/blocks/singlePage.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/checkout.styl" />
-        <option value="$PROJECT_DIR$/app/pug/layouts/layout.pug" />
-        <option value="$PROJECT_DIR$/app/blocks/footer/footer.styl" />
-        <option value="$PROJECT_DIR$/app/pug/includes/main-menu.pug" />
-        <option value="$PROJECT_DIR$/app/pug/includes/top-nav.pug" />
-        <option value="$PROJECT_DIR$/app/blocks/top-nav/top-nav.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/cover/cover.styl" />
-        <option value="$PROJECT_DIR$/../../../WebStorm_hotkeys" />
-        <option value="$PROJECT_DIR$/app/styl/vars.styl" />
-        <option value="$PROJECT_DIR$/app/blocks/site/site.styl" />
-        <option value="$PROJECT_DIR$/app/assets/css/styles.css" />
-        <option value="$PROJECT_DIR$/app/blocks/categories/categories.styl" />
-        <option value="$PROJECT_DIR$/dist/singlePage.html" />
-        <option value="$PROJECT_DIR$/dist/shoppingCart.html" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/app/blocks/shoppingCart.styl" />
-        <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
-        <option value="$PROJECT_DIR$/app/pug/includes/bot-nav.pug" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <gulpfiles>
@@ -252,14 +135,6 @@
     </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-2" />
-    <option name="width" value="1366" />
-    <option name="height" value="770" />
-  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -276,65 +151,11 @@
               <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
               <item name="proverstka" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proverstka" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proverstka" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="pug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proverstka" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="pug" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proverstka" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="pug" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value=".categories&#9;null&#9;null&#10;cover&#9;FILE&#9;file:///home/don/development/projects/GeekBrains/proverstka/app/blocks/cover/cover.styl&#10;inde&#9;FILE&#9;file:///home/don/houp/app/index.html" />
-    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../WebStorm_hotkeys" />
-    <property name="list.type.of.created.stylesheet" value="Stylus" />
-    <property name="node.js.detected.package.prettier" value="true" />
-    <property name="node.js.detected.package.stylelint" value="true" />
-    <property name="node.js.path.for.package.prettier" value="project" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.selected.package.prettier" value="" />
-    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylus" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="settings.editor.splitter.proportion" value="0.1745283" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/blocks/site" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/blocks/product" />
-      <recent name="$PROJECT_DIR$/app/blocks/categories" />
-      <recent name="$PROJECT_DIR$/app/blocks/catalog-bestItems" />
-      <recent name="$PROJECT_DIR$/app/blocks/offer" />
-      <recent name="$PROJECT_DIR$/app/blocks/comments" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -348,83 +169,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gulp.js.html">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration name="build" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>build</task>
-      </tasks>
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration name="css" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>css</task>
-      </tasks>
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration name="default" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>default</task>
-      </tasks>
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration name="html" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>html</task>
-      </tasks>
-      <arguments />
-      <envs />
-    </configuration>
-    <configuration name="public" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
-      <tasks>
-        <task>public</task>
-      </tasks>
-      <arguments />
-      <envs />
-    </configuration>
-    <list>
-      <item itemvalue="Gulp.js.html" />
-      <item itemvalue="Gulp.js.default" />
-      <item itemvalue="Gulp.js.css" />
-      <item itemvalue="Gulp.js.build" />
-      <item itemvalue="Gulp.js.public" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gulp.js.html" />
-        <item itemvalue="Gulp.js.build" />
-        <item itemvalue="Gulp.js.public" />
-        <item itemvalue="Gulp.js.css" />
-        <item itemvalue="Gulp.js.default" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="2" BundledDictionary0="less.dic" BundledDictionary1="vue.dic" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -470,7 +214,7 @@
       <workItem from="1524033948711" duration="12318000" />
       <workItem from="1524050011754" duration="2083000" />
       <workItem from="1524095209960" duration="10490000" />
-      <workItem from="1524108265657" duration="1890000" />
+      <workItem from="1524108265657" duration="2105000" />
     </task>
     <task id="LOCAL-00001" summary="Оптимизация блока Cover и Categories">
       <created>1524109954239</created>
@@ -479,34 +223,31 @@
       <option name="project" value="LOCAL" />
       <updated>1524109954239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Оптимизация блока Cover и Categories #1">
+      <created>1524110423574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524110423574</updated>
+    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222894000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="59000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1366" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32891247" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32891247" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.48806366" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.48806366" />
       <window_info id="npm" order="4" sideWeight="0.4249012" side_tool="true" weight="0.16398244" />
-      <window_info anchor="bottom" x="657" y="477" width="709" height="186" id="Run" order="2" type="FLOATING" visible="true" weight="0.1159618" />
+      <window_info anchor="bottom" x="657" y="477" width="709" height="186" id="Run" order="2" type="FLOATING" weight="0.1159618" />
       <window_info anchor="bottom" x="803" y="640" width="563" height="128" id="Terminal" internal_type="SLIDING" order="10" type="SLIDING" weight="0.3328786" />
-      <window_info id="Gulp" order="2" sideWeight="0.4249012" side_tool="true" visible="true" weight="0.16398244" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5750988" visible="true" weight="0.16398244" />
+      <window_info id="Gulp" order="2" sideWeight="0.4244032" side_tool="true" weight="0.16398244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5755968" visible="true" weight="0.16398244" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" sideWeight="0.31652662" side_tool="true" weight="0.26207906" />
       <window_info id="Favorites" order="3" sideWeight="0.33640552" side_tool="true" weight="0.24743778" />
@@ -524,9 +265,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Оптимизация блока Cover и Categories #2" />
     <MESSAGE value="Оптимизация блока Cover и Categories #3" />
@@ -534,23 +272,7 @@
     <MESSAGE value="Оптимизация блока Cover и Categories #1" />
     <option name="LAST_COMMIT_MESSAGE" value="Оптимизация блока Cover и Categories #1" />
   </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand>
-      <path>
-        <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
-        <item name="proverstka" type="462c0819:PsiDirectoryNode" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/blocks/items/logo.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -843,20 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="247" column="7" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -867,45 +579,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10910" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/singlePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="192" column="7" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
+        <state relative-caret-position="262">
+          <caret line="192" column="31" lean-forward="true" selection-start-line="192" selection-start-column="31" selection-end-line="192" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/includes/bot-nav.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="156">
           <caret line="11" column="29" lean-forward="true" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
