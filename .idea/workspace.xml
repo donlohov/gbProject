@@ -8,31 +8,12 @@
     <bookmark url="file://$PROJECT_DIR$/app/assets/css/styles.css" line="853" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eafed623-0afa-4eb3-97e1-5a6a57469b0b" name="Default" comment="Оптимизация блока Cover и Categories #3">
-      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/css/vendor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/vendor.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/js/vendor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/vendor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blocks/categories/categories.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/categories/categories.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blocks/shoppingCart.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/shoppingCart.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blocks/site/site.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/blocks/site/site.styl" afterDir="false" />
+    <list default="true" id="eafed623-0afa-4eb3-97e1-5a6a57469b0b" name="Default" comment="Оптимизация блока Cover и Categories #1">
+      <change beforePath="$PROJECT_DIR$/app/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/checkout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pug/includes/bot-nav.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/includes/bot-nav.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/pug/pages/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styl/vars.styl" beforeDir="false" afterPath="$PROJECT_DIR$/app/styl/vars.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/vendor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/vendor.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/js/vendor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/js/vendor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/shoppingCart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/singlePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/singlePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/shoppingCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/singlePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/singlePage.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,11 +37,38 @@
     <splitter split-orientation="horizontal" split-proportion="0.5878477">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.pug" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
+                <state relative-caret-position="252">
                   <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bot-nav.pug" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/pug/includes/bot-nav.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="168">
+                  <caret line="11" column="29" lean-forward="true" selection-end-line="47" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="singlePage.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/singlePage.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="192" column="7" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="singlePage.pug" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/pug/pages/singlePage.pug">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -181,9 +189,9 @@
         <option value="$PROJECT_DIR$/dist/singlePage.html" />
         <option value="$PROJECT_DIR$/dist/shoppingCart.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/app/pug/includes/bot-nav.pug" />
         <option value="$PROJECT_DIR$/app/blocks/shoppingCart.styl" />
         <option value="$PROJECT_DIR$/app/pug/pages/index.pug" />
+        <option value="$PROJECT_DIR$/app/pug/includes/bot-nav.pug" />
       </list>
     </option>
   </component>
@@ -277,13 +285,14 @@
               <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
               <item name="proverstka" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="pug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
               <item name="proverstka" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="pug" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proverstka" type="b2602c69:ProjectViewProjectNode" />
@@ -407,11 +416,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gulp.js.public" />
+        <item itemvalue="Gulp.js.html" />
         <item itemvalue="Gulp.js.build" />
+        <item itemvalue="Gulp.js.public" />
         <item itemvalue="Gulp.js.css" />
         <item itemvalue="Gulp.js.default" />
-        <item itemvalue="Gulp.js.html" />
       </list>
     </recent_temporary>
   </component>
@@ -461,12 +470,20 @@
       <workItem from="1524033948711" duration="12318000" />
       <workItem from="1524050011754" duration="2083000" />
       <workItem from="1524095209960" duration="10490000" />
-      <workItem from="1524108265657" duration="1400000" />
+      <workItem from="1524108265657" duration="1890000" />
     </task>
+    <task id="LOCAL-00001" summary="Оптимизация блока Cover и Categories">
+      <created>1524109954239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524109954239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222404000" />
+    <option name="totallyTimeSpent" value="222894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,14 +499,14 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3277311" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32891247" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32891247" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.48806366" />
-      <window_info id="npm" order="4" sideWeight="0.5017123" side_tool="true" weight="0.11904762" />
-      <window_info anchor="bottom" x="657" y="477" width="709" height="186" id="Run" order="2" type="FLOATING" weight="0.1159618" />
+      <window_info id="npm" order="4" sideWeight="0.4249012" side_tool="true" weight="0.16398244" />
+      <window_info anchor="bottom" x="657" y="477" width="709" height="186" id="Run" order="2" type="FLOATING" visible="true" weight="0.1159618" />
       <window_info anchor="bottom" x="803" y="640" width="563" height="128" id="Terminal" internal_type="SLIDING" order="10" type="SLIDING" weight="0.3328786" />
-      <window_info id="Gulp" order="2" sideWeight="0.33753502" side_tool="true" weight="0.10834553" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6834734" weight="0.16398244" />
+      <window_info id="Gulp" order="2" sideWeight="0.4249012" side_tool="true" visible="true" weight="0.16398244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5750988" visible="true" weight="0.16398244" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" sideWeight="0.31652662" side_tool="true" weight="0.26207906" />
       <window_info id="Favorites" order="3" sideWeight="0.33640552" side_tool="true" weight="0.24743778" />
@@ -511,10 +528,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Оптимизация блока Cover и Categories" />
     <MESSAGE value="Оптимизация блока Cover и Categories #2" />
     <MESSAGE value="Оптимизация блока Cover и Categories #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оптимизация блока Cover и Categories #3" />
+    <MESSAGE value="Оптимизация блока Cover и Categories" />
+    <MESSAGE value="Оптимизация блока Cover и Categories #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оптимизация блока Cover и Categories #1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -526,21 +544,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/blocks/items/search-form.styl" />
-    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/includes/header.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -648,13 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3266">
           <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/pages/singlePage.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -784,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/singlePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="227" column="14" lean-forward="true" selection-start-line="227" selection-start-column="14" selection-end-line="227" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/checkout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -809,13 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pug/includes/bot-nav.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -854,10 +836,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/singlePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="137" column="125" selection-start-line="137" selection-start-column="125" selection-end-line="137" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/checkout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="247" column="7" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/pug/pages/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="252">
           <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/pages/singlePage.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/singlePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="192" column="7" selection-start-line="192" selection-start-column="7" selection-end-line="192" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/pug/includes/bot-nav.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="29" lean-forward="true" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
