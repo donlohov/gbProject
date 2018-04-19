@@ -57,21 +57,23 @@
           </div>
         </div>
       </header><!-- /.header -->
-      <section class="main-menu">
-        <nav class="d-none d-sm-none d-md-block">
-          <ul class="nav justify-content-center top-nav">
-            <li class="nav-item top-nav__item"><a class="nav-link top-nav__link top-nav__link--active" href="#">home</a></li>
-            <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">man</a></li>
-            <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">women</a></li>
-            <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">kids</a></li>
-            <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">accessories</a></li>
-            <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">featured</a></li>
-            <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">hot deals</a></li>
-          </ul>
-        </nav>
-      </section><!-- /.main-menu -->
+      <section class="site__top-nav">
+        <div class="container">
+          <nav class="d-none d-lg-block d-xl-block">
+            <ul class="nav top-nav">
+              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link top-nav__link--active" href="#">home</a></li>
+              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">man</a></li>
+              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">women</a></li>
+              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">kids</a></li>
+              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">accessories</a></li>
+              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">featured</a></li>
+              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">hot deals</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section><!-- /.top-nav -->
       <div class="site__content content">
-        <section class="cover">
+        <section class="site__cover">
           <div class="container">
             <div class="cover">
               <div class="carousel slide" id="carouselExampleSlidesOnly" data-ride="carousel">
@@ -94,22 +96,31 @@
           </div>
         </section>
         <!--cover-->
-        <section class="categories container">
-          <div class="categories__items">
-            <div class="cat_1"><a href="product.html"><img class="cat_1_img" src="assets/img/categories/cat_man.png" alt="MAN"></a>
-              <div class="cat_1_name"><a href="product.html">HOT DEAL<br><span>FOR MEN</span></a></div>
-            </div>
-            <div class="cat_2"><a href="#"><img class="cat_1_img" src="assets/img/categories/cat_women.png" alt="WOMEN"></a>
-              <div class="cat_1_name"><a href="#">30% offer<br><span>women</span></a></div>
-            </div>
-            <div class="cat_3"><a href="#"><img class="cat_1_img" src="assets/img/categories/cat_acces.png" alt="ACCESORIES"></a>
-              <div class="cat_1_name"><a href="#">LUXIROUS & trendy<br><span>ACCESORIES</span></a></div>
-            </div>
-            <div class="cat_4"><a href="#"><img class="cat_1_img" src="assets/img/categories/cat_kids.png" alt="KIDS"></a>
-              <div class="cat_1_name"><a href="#">new arrivals<br><span>FOR kids</span></a></div>
-            </div>
+        <section class="site__categories container">
+          <div class="categories">
+            <div class="categories-item"><a class="categories-item__link" href="product.html">
+                <div class="categories-item-text">
+                  <div class="categories-item-text__description">hot deal</div>
+                  <div class="categories-item-text__title">for men</div>
+                </div><img class="categories-item__img" src="assets/img/categories/categories-item-img_man.png" alt="man"></a></div>
+            <div class="categories-item"><a class="categories-item__link" href="#">
+                <div class="categories-item-text">
+                  <div class="categories-item-text__description">30% offer</div>
+                  <div class="categories-item-text__title">women</div>
+                </div><img class="categories-item__img" src="assets/img/categories/categories-item-img_women.png" alt="women"></a></div>
+            <div class="categories-item"><a class="categories-item__link" href="#">
+                <div class="categories-item-text">
+                  <div class="categories-item-text__description">luxurious & trendy</div>
+                  <div class="categories-item-text__title">accessories</div>
+                </div><img class="categories-item__img" src="assets/img/categories/categories-item-img_accessories.png" alt="accessories"></a></div>
+            <div class="categories-item"><a class="categories-item__link" href="#">
+                <div class="categories-item-text">
+                  <div class="categories-item-text__description">new arrivals</div>
+                  <div class="categories-item-text__title">for kids</div>
+                </div><img class="categories-item__img" src="assets/img/categories/categories-item-img_kids.png" alt="kids"></a></div>
           </div>
         </section>
+        <!--categories-->
         <section class="catalog container">
           <div class="catalog-title">
             <h2 class="catalog-title__title">Fetured Items</h2>
@@ -162,19 +173,19 @@
           </div>
           <div class="offer-items">
             <div class="offer-items__item">
-              <div class="offer-items__img"><img src="assets/img/icon/icon-offer-item-car@2x.png"></div>
+              <div class="offer-items__img"><img src="assets/img/icons/icon-offer-item-car.png"></div>
               <div class="offer-items__title">Free Delivery
                 <div class="offer-items__description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
               </div>
             </div>
             <div class="offer-items__item">
-              <div class="offer-items__img"><img src="assets/img/icon/icon-offer-item-sale@2x.png"></div>
+              <div class="offer-items__img"><img src="assets/img/icons/icon-offer-item-sale.png"></div>
               <div class="offer-items__title">Free Delivery
                 <div class="offer-items__description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
               </div>
             </div>
             <div class="offer-items__item">
-              <div class="offer-items__img"><img src="assets/img/icon/icon-offer-item-crown@2x.png"></div>
+              <div class="offer-items__img"><img src="assets/img/icons/icon-offer-item-crown.png"></div>
               <div class="offer-items__title">Free Delivery
                 <div class="offer-items__description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
               </div>
@@ -222,7 +233,7 @@
         </div>
       </section>
       <!--comments-->
-      <sectiom class="bot-nav">
+      <section class="bot-nav">
         <div class="container flexCenterSpaceBetween bot-nav__items">
           <div class="bot-nav__item">
             <div class="bot-nav__logo"><img class="logo" src="assets/img/logo.png" alt="Logo"></div>
@@ -258,7 +269,7 @@
             </div>
           </div>
         </div>
-      </sectiom>
+      </section>
       <!--bot-nav-->
       <footer class="site__footer">
         <div class="container flexCenterSpaceBetween footer">

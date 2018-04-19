@@ -1,155 +1,145 @@
 extends ../layouts/layout.pug
 
 block site__content
-  section.site__cover
-    .container
-      .cover
-        #carouselExampleSlidesOnly.carousel.slide(data-ride='carousel')
-          .carousel-inner
-            .carousel-item.active
-              img.d-block.w-100.cover__img(src='assets/img/baner.png', alt='Первый слайд')
-              .carousel-caption.cover-text
-                h1.cover-text__h1 The Brand
-                p.cover-text__p of luxurious
-                  span.cover-text__span fashion
-            .carousel-item
-              img.d-block.w-100.cover__img(src='assets/img/baner.png', alt='Второй слайд')
-              .carousel-caption.cover-text
-                h1.cover-text__h1 The Best
-                p.cover-text__p or nothing
-                  span.cover-text__span clothes
-
-  section.categories.container
-    .categories__items
-      .cat_1
-        a(href='product.html')
-          img.cat_1_img(src='assets/img/categories/cat_man.png', alt='MAN')
-        .cat_1_name
-          a(href='product.html')
-            | HOT DEAL
-            br
-            span FOR MEN
-      .cat_2
-        a(href='#')
-          img.cat_1_img(src='assets/img/categories/cat_women.png', alt='WOMEN')
-        .cat_1_name
-          a(href='#')
-            | 30% offer
-            br
-            span women
-      .cat_3
-        a(href='#')
-          img.cat_1_img(src='assets/img/categories/cat_acces.png', alt='ACCESORIES')
-        .cat_1_name
-          a(href='#')
-            | LUXIROUS & trendy
-            br
-            span ACCESORIES
-      .cat_4
-        a(href='#')
-          img.cat_1_img(src='assets/img/categories/cat_kids.png', alt='KIDS')
-        .cat_1_name
-          a(href='#')
-            | new arrivals
-            br
-            span FOR kids
-
-
-  section.catalog.container
-    .catalog-title
-      h2.catalog-title__title Fetured Items
-      .catalog-title__description Shop for items based on what we featured in this week
-    .catalog__items
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-2.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='single_page.html')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-3.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='#')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-4.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='#')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-5.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='#')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-6.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='#')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-7.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='#')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-8.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='#')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-      .catalog-item
-        img.catalog-item__img(src='assets/img/layer-9.png', alt='Mango People T-shirt')
-        .catalog-item__name Mango People T-shirt
-        .catalog-item__price $52.00
-        a.catalog-item-hover(href='#')
-          span.catalog-item-hover__card
-            img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-            | Add to Cart
-    button.catalog-button
-      | Browse All Product
-      img.catalog-button__img(src='assets/img/--.png', alt='')
-  //catalog-bestItems
-
-  section.site__offer.offer.container
-    .offer-cover
-      .offer-cover__img
-        .offer-cover__title 30%
-          span.offer-cover__span offer
-          .offer-cover__description for women
-        img(src='assets/img/bg-offer-cover.png')
-    .offer-items
-      .offer-items__item
-        .offer-items__img
-          img(src='assets/img/icon/icon-offer-item-car@2x.png')
-        .offer-items__title Free Delivery
-          .offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-      .offer-items__item
-        .offer-items__img
-          img(src='assets/img/icon/icon-offer-item-sale@2x.png')
-        .offer-items__title Free Delivery
-          .offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-      .offer-items__item
-        .offer-items__img
-          img(src='assets/img/icon/icon-offer-item-crown@2x.png')
-        .offer-items__title Free Delivery
-          .offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-  //offer
+	section.site__cover
+		.container
+			.cover
+				#carouselExampleSlidesOnly.carousel.slide(data-ride='carousel')
+					.carousel-inner
+						.carousel-item.active
+							img.d-block.w-100.cover__img(src='assets/img/baner.png', alt='Первый слайд')
+							.carousel-caption.cover-text
+								h1.cover-text__h1 The Brand
+								p.cover-text__p of luxurious
+									span.cover-text__span fashion
+						.carousel-item
+							img.d-block.w-100.cover__img(src='assets/img/baner.png', alt='Второй слайд')
+							.carousel-caption.cover-text
+								h1.cover-text__h1 The Best
+								p.cover-text__p or nothing
+									span.cover-text__span clothes
+	//cover
+	section.site__categories.container
+		.categories
+			.categories-item
+				a.categories-item__link(href='product.html')
+					.categories-item-text
+						.categories-item-text__description hot deal
+						.categories-item-text__title for men
+					img.categories-item__img(src='assets/img/categories/categories-item-img_man.png', alt='man')
+			.categories-item
+				a.categories-item__link(href='#')
+					.categories-item-text
+						.categories-item-text__description 30% offer
+						.categories-item-text__title women
+					img.categories-item__img(src='assets/img/categories/categories-item-img_women.png', alt='women')
+			.categories-item
+				a.categories-item__link(href='#')
+					.categories-item-text
+						.categories-item-text__description luxurious & trendy
+						.categories-item-text__title accessories
+					img.categories-item__img(src='assets/img/categories/categories-item-img_accessories.png', alt='accessories')
+			.categories-item
+				a.categories-item__link(href='#')
+					.categories-item-text
+						.categories-item-text__description new arrivals
+						.categories-item-text__title for kids
+					img.categories-item__img(src='assets/img/categories/categories-item-img_kids.png', alt='kids')
+	//categories
+	section.catalog.container
+		.catalog-title
+			h2.catalog-title__title Fetured Items
+			.catalog-title__description Shop for items based on what we featured in this week
+		.catalog__items
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-2.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='single_page.html')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-3.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='#')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-4.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='#')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-5.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='#')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-6.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='#')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-7.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='#')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-8.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='#')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+			.catalog-item
+				img.catalog-item__img(src='assets/img/layer-9.png', alt='Mango People T-shirt')
+				.catalog-item__name Mango People T-shirt
+				.catalog-item__price $52.00
+				a.catalog-item-hover(href='#')
+					span.catalog-item-hover__card
+						img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+						| Add to Cart
+		button.catalog-button
+			| Browse All Product
+			img.catalog-button__img(src='assets/img/--.png', alt='')
+	//catalog-bestItems
+	section.site__offer.offer.container
+		.offer-cover
+			.offer-cover__img
+				.offer-cover__title 30%
+					span.offer-cover__span offer
+					.offer-cover__description for women
+				img(src='assets/img/bg-offer-cover.png')
+		.offer-items
+			.offer-items__item
+				.offer-items__img
+					img(src='assets/img/icons/icon-offer-item-car.png')
+				.offer-items__title Free Delivery
+					.offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+			.offer-items__item
+				.offer-items__img
+					img(src='assets/img/icons/icon-offer-item-sale.png')
+				.offer-items__title Free Delivery
+					.offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+			.offer-items__item
+				.offer-items__img
+					img(src='assets/img/icons/icon-offer-item-crown.png')
+				.offer-items__title Free Delivery
+					.offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+	//offer
