@@ -1,14 +1,16 @@
 .comments
-  height 438px
-  background-color #e8e8e8
-  background-image url("../img/bg-comments.jpg")
-  background-repeat no-repeat
-  background-position center
-  margin-bottom 97px
+  height 100%
+  display flex
+  align-items center
+  +responsive(md)
+    flex-wrap wrap
+    justify-content center
   &-commentSlider
     width 497px
     height 271px
     margin-right 17%
+    +responsive(md)
+      margin 0
     &__items
       height 100%
       margin-top 40px
@@ -45,6 +47,9 @@
       text-align left
       line-height 10px
       margin 0
+  &-form
+    display flex
+    flex-wrap nowrap
   &-subscribe
     color rgba(34, 34, 36, 0.67)
     font-size 24px
