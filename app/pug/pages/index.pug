@@ -9,14 +9,14 @@ block site__content
 						.carousel-item.active
 							img.d-block.w-100.cover__img(src='assets/img/baner.png', alt='Первый слайд')
 							.carousel-caption.cover-text
-								h1.cover-text__h1 The Brand
-								p.cover-text__p of luxurious
+								h1.cover-text__title The Brand
+								p.cover-text__description of luxurious
 									span.cover-text__span fashion
 						.carousel-item
 							img.d-block.w-100.cover__img(src='assets/img/baner.png', alt='Второй слайд')
 							.carousel-caption.cover-text
-								h1.cover-text__h1 The Best
-								p.cover-text__p or nothing
+								h1.cover-text__title The Best
+								p.cover-text__description or nothing
 									span.cover-text__span clothes
 	//cover
 	section.site__categories.container
@@ -119,27 +119,27 @@ block site__content
 			| Browse All Product
 			img.catalog-button__img(src='assets/img/--.png', alt='')
 	//catalog-bestItems
-	section.site__offer.offer.container
-		.offer-cover
+	section.site__offer.container
+		.offer.offer-cover.offer-coverItems
 			.offer-cover__img
 				.offer-cover__title 30%
 					span.offer-cover__span offer
 					.offer-cover__description for women
 				img(src='assets/img/bg-offer-cover.png')
-		.offer-items
-			.offer-items__item
-				.offer-items__img
-					img(src='assets/img/icons/icon-offer-item-car.png')
-				.offer-items__title Free Delivery
-					.offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-			.offer-items__item
-				.offer-items__img
-					img(src='assets/img/icons/icon-offer-item-sale.png')
-				.offer-items__title Free Delivery
-					.offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-			.offer-items__item
-				.offer-items__img
-					img(src='assets/img/icons/icon-offer-item-crown.png')
-				.offer-items__title Free Delivery
-					.offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
+			.offer-items
+				.offer-coverItems__item
+					.offer-coverItems__img
+						img(src='assets/img/icons/icon-offer-item-car.png')
+					.offer-coverItems__title Free Delivery
+						.offer-items__description Worldwide delivery on all. Authority timely morph next-generation innovation with extensive models.
+				.offer-coverItems__item
+					.offer-coverItems__img
+						img(src='assets/img/icons/icon-offer-item-sale.png')
+					.offer-coverItems__title Free Delivery
+						.offer-items__description Worldwide delivery on all. Authority timely morph next-generation innovation with extensive models.
+				.offer-coverItems__item
+					.offer-coverItems__img
+						img(src='assets/img/icons/icon-offer-item-crown.png')
+					.offer-coverItems__title Free Delivery
+						.offer-items__description Worldwide delivery on all. Authority timely morph next-generation innovation with extensive models.
 	//offer

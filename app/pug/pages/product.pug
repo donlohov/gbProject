@@ -1,266 +1,266 @@
 extends ../layouts/layout.pug
 
 block site__content
-  .breadcrumbs
-    .container
-      .breadcrumbs__items
-        h1.breadcrumbs__title New Arrivals
-        ul.breadcrumbs__list
-          li.breadcrumbs__item
-            a.breadcrumbs__link(href='#') home
-          |                     /
-          li.breadcrumbs__item
-            a.breadcrumbs__link(href='#') women
-          |                     /
-          li.breadcrumbs__item
-            a.breadcrumbs__link--active(href='#') new arrivals
-  .container
-    .catalog_product_menu.container
-      .catalog_product_categories_blok
-        details
-          summary.catalog_product_categories
-            span CATEGORY
-            span.close_open_details
-          .catalog_product_categories_nav_details
-            ul
-              li
-                a(href='#') Accessories 
-              li
-                a(href='#') Bags 
-              li
-                a(href='#') Denim
-              li
-                a(href='#') Hoodies & Sweatshirts 
-              li
-                a(href='#') Jackets & Coats 
-              li
-                a(href='#') Pants 
-              li
-                a(href='#') Polos
-              li
-                a(href='#')  Shirts 
-              li
-                a(href='#') Shoes 
-              li
-                a(href='#') Shorts
-              li
-                a(href='#')  Sweaters & Knits 
-              li
-                a(href='#') T-Shirts 
-              li
-                a(href='#') Tanks
-        details
-          summary.catalog_product_categories
-            span BRAND
-            span.close_open_details
-          .catalog_product_categories_nav_details
-            ul
-              li
-                a(href='#') Home
-              li
-                a(href='#') Man
-              li
-                a(href='#') Women
-              li
-                a(href='#') Kids
-              li
-                a(href='#') Accoseriese
-              li
-                a(href='#') Featured
-              li
-                a(href='#') Hot Deals
-        details
-          summary.catalog_product_categories
-            span DESIGNER
-            span.close_open_details
-          .catalog_product_categories_nav_details
-            ul
-              li
-                a(href='#') Home
-              li
-                a(href='#') Man
-              li
-                a(href='#') Women
-              li
-                a(href='#') Kids
-              li
-                a(href='#') Accoseriese
-              li
-                a(href='#') Featured
-              li
-                a(href='#') Hot Deals
-      .catalog_product
-        .catalog_product_filter
-          .cat_pr_filter_trending
-            | Trending now
-            .href
-              a(href='') Bohemian
-              span |
-              a(href='') Floral
-              span |
-              a(href='') Lace
-              a(href='')  Floral
-              span |
-              a(href='') Lace
-              span |
-              a(href='') Bohemian
-          .cat_pr_filter_size
-            | Size
-            form(action='#')
-              .size-checkbox.checkbox-1
-                input#xxs(type='checkbox')
-                label(for='xxs') XXS
-              .size-checkbox.checkbox-2
-                input#xs(type='checkbox')
-                label(for='xs') XS
-              .size-checkbox.checkbox-3
-                input#s(type='checkbox')
-                label(for='s') S
-              .size-checkbox.checkbox-4
-                input#m(type='checkbox')
-                label(for='m') M
-              .size-checkbox.checkbox-5
-                input#l(type='checkbox')
-                label(for='l') L
-              .size-checkbox.checkbox-6
-                input#xl(type='checkbox')
-                label(for='xl') XL
-              .size-checkbox.checkbox-7
-                input#xxl(type='checkbox')
-                label(for='xxl') XXL
-          .cat_pr_filter_price
-            | Price
-            .label
-              label
-                input#label_range(type='range', min='20', max='400')
-            .prices
-              div $52
-              div $400
-        .catalog_product_sort
-          .cat_prod_sort
-            label(for='sort_by') Sort By
-            .select
-              select#sort_by(name='sort_by')
-                option(value='name') Name
-                option(value='price') Price
-              span.close_open_details
-          .cat_prod_show
-            label(for='show')
-              | Show
-              span.close_open_details
-            .select
-              select#show(name='show')
-                option(value='number') 09
-                option(value='number') 12
-                option(value='number') 15
-              span.close_open_details
+	.breadcrumbs
+		.container
+			.breadcrumbs__items
+				h1.breadcrumbs__title New Arrivals
+				ul.breadcrumbs__list
+					li.breadcrumbs__item
+						a.breadcrumbs__link(href='#') home
+					|                     /
+					li.breadcrumbs__item
+						a.breadcrumbs__link(href='#') women
+					|                     /
+					li.breadcrumbs__item
+						a.breadcrumbs__link--active(href='#') new arrivals
+	.container
+		.catalog_product_menu.container
+			.catalog_product_categories_blok
+				details
+					summary.catalog_product_categories
+						span CATEGORY
+						span.close_open_details
+					.catalog_product_categories_nav_details
+						ul
+							li
+								a(href='#') Accessories 
+							li
+								a(href='#') Bags 
+							li
+								a(href='#') Denim
+							li
+								a(href='#') Hoodies & Sweatshirts 
+							li
+								a(href='#') Jackets & Coats 
+							li
+								a(href='#') Pants 
+							li
+								a(href='#') Polos
+							li
+								a(href='#')  Shirts 
+							li
+								a(href='#') Shoes 
+							li
+								a(href='#') Shorts
+							li
+								a(href='#')  Sweaters & Knits 
+							li
+								a(href='#') T-Shirts 
+							li
+								a(href='#') Tanks
+				details
+					summary.catalog_product_categories
+						span BRAND
+						span.close_open_details
+					.catalog_product_categories_nav_details
+						ul
+							li
+								a(href='#') Home
+							li
+								a(href='#') Man
+							li
+								a(href='#') Women
+							li
+								a(href='#') Kids
+							li
+								a(href='#') Accoseriese
+							li
+								a(href='#') Featured
+							li
+								a(href='#') Hot Deals
+				details
+					summary.catalog_product_categories
+						span DESIGNER
+						span.close_open_details
+					.catalog_product_categories_nav_details
+						ul
+							li
+								a(href='#') Home
+							li
+								a(href='#') Man
+							li
+								a(href='#') Women
+							li
+								a(href='#') Kids
+							li
+								a(href='#') Accoseriese
+							li
+								a(href='#') Featured
+							li
+								a(href='#') Hot Deals
+			.catalog_product
+				.catalog_product_filter
+					.cat_pr_filter_trending
+						| Trending now
+						.href
+							a(href='') Bohemian
+							span |
+							a(href='') Floral
+							span |
+							a(href='') Lace
+							a(href='')  Floral
+							span |
+							a(href='') Lace
+							span |
+							a(href='') Bohemian
+					.cat_pr_filter_size
+						| Size
+						form(action='#')
+							.size-checkbox.checkbox-1
+								input#xxs(type='checkbox')
+								label(for='xxs') XXS
+							.size-checkbox.checkbox-2
+								input#xs(type='checkbox')
+								label(for='xs') XS
+							.size-checkbox.checkbox-3
+								input#s(type='checkbox')
+								label(for='s') S
+							.size-checkbox.checkbox-4
+								input#m(type='checkbox')
+								label(for='m') M
+							.size-checkbox.checkbox-5
+								input#l(type='checkbox')
+								label(for='l') L
+							.size-checkbox.checkbox-6
+								input#xl(type='checkbox')
+								label(for='xl') XL
+							.size-checkbox.checkbox-7
+								input#xxl(type='checkbox')
+								label(for='xxl') XXL
+					.cat_pr_filter_price
+						| Price
+						.label
+							label
+								input#label_range(type='range', min='20', max='400')
+						.prices
+							div $52
+							div $400
+				.catalog_product_sort
+					.cat_prod_sort
+						label(for='sort_by') Sort By
+						.select
+							select#sort_by(name='sort_by')
+								option(value='name') Name
+								option(value='price') Price
+							span.close_open_details
+					.cat_prod_show
+						label(for='show')
+							| Show
+							span.close_open_details
+						.select
+							select#show(name='show')
+								option(value='number') 09
+								option(value='number') 12
+								option(value='number') 15
+							span.close_open_details
 
-        .catalog__items
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-2.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='singlePage.html')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-3.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-4.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-5.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-6.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-7.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-8.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-9.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
-          .catalog-item
-            img.catalog-item__img(src='assets/img/layer-9.png', alt='Mango People T-shirt')
-            .catalog-item__name Mango People T-shirt
-            .catalog-item__price $52.00
-            a.catalog-item-hover(href='#')
-              span.catalog-item-hover__card
-                img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
-                | Add to Cart
+				.catalog__items
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-2.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='singlePage.html')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-3.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-4.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-5.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-6.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-7.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-8.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-9.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
+					.catalog-item
+						img.catalog-item__img(src='assets/img/layer-9.png', alt='Mango People T-shirt')
+						.catalog-item__name Mango People T-shirt
+						.catalog-item__price $52.00
+						a.catalog-item-hover(href='#')
+							span.catalog-item-hover__card
+								img.catalog-item-hover__img(src='assets/img/card_img.png', alt='')
+								| Add to Cart
 
-        .catalog_product_footer
-          .paginator
-            a(href='#')
-              i.fa.fa-angle-left(aria-hidden='true')
-            a#paginator_active_link(href='#') 1
-            a(href='#') 2
-            a(href='#') 3
-            a(href='#') 4
-            a(href='#') 5
-            a(href='#') 6
-            span …
-            a(href='#') 20
-            a(href='#')
-              i.fa.fa-angle-right(aria-hidden='true')
-          button View All
+				.catalog_product_footer
+					.paginator
+						a(href='#')
+							i.fa.fa-angle-left(aria-hidden='true')
+						a#paginator_active_link(href='#') 1
+						a(href='#') 2
+						a(href='#') 3
+						a(href='#') 4
+						a(href='#') 5
+						a(href='#') 6
+						span …
+						a(href='#') 20
+						a(href='#')
+							i.fa.fa-angle-right(aria-hidden='true')
+					button View All
 
-  section.offer
-    .container
-      .offer-items
-        .offer-items__item
-          .offer-items__img
-            img(src='assets/img/icon/icon-offer-item-car@2x.png')
-          .offer-items__title Free Delivery
-            .offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-        .offer-items__item
-          .offer-items__img
-            img(src='assets/img/icon/icon-offer-item-sale@2x.png')
-          .offer-items__title Free Delivery
-            .offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-        .offer-items__item
-          .offer-items__img
-            img(src='assets/img/icon/icon-offer-item-crown@2x.png')
-          .offer-items__title Free Delivery
-            .offer-items__description Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
-  //offer
+	section.site__offer
+		.container.offer
+			.offer-items
+				.offer-items__item
+					.offer-items__img
+						img(src='assets/img/icons/icon-offer-item-car.png')
+					.offer-items__title Free Delivery
+						.offer-items__description Worldwide delivery on all. Authority timely morph next-generation innovation with extensive models.
+				.offer-items__item
+					.offer-items__img
+						img(src='assets/img/icons/icon-offer-item-sale.png')
+					.offer-items__title Free Delivery
+						.offer-items__description Worldwide delivery on all. Authority timely morph next-generation innovation with extensive models.
+				.offer-items__item
+					.offer-items__img
+						img(src='assets/img/icons/icon-offer-item-crown.png')
+					.offer-items__title Free Delivery
+						.offer-items__description Worldwide delivery on all. Authority timely morph next-generation innovation with extensive models.
+	//offer
