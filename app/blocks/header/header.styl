@@ -1,71 +1,143 @@
 /* header */
-
 .header
-  display flex
-  align-items center
-  &__logo
-    margin-right 37px
-  &-search
-    height 38px
-    display flex
-    align-items center
-    flex-wrap nowrap
-    &-button
-      &__link
-        height 100%
-        color #222222
-        font-size 14px
-        font-weight 300
-        letter-spacing 0.35px
-        background-color #f9f9f9
-        border-radius 3px 0 0 3px
-        border 1px solid #e6e6e6
-        padding 10px 20px 10px 17px
-        &:hover
-          color #222222
-        &::after
-          color #838383
-    &-form
-      height 100%
-      display flex
-      align-items center
-      flex-wrap nowrap
-      width 11em
-      &__input
-        height 100%
-        font-size 14px
-        letter-spacing 0.5px
-        border 1px solid #e6e6e6
-        border-radius 0
-        border-left 0
-        border-right 0
-        padding-left 15px
-        padding-right 5px
-      &__button
-        height 100%
-        width 35px
-        font-size 14px
-        color #838383
-        background #ffffff
-        border-radius 0 3px 3px 0
-        border 1px solid #e6e6e6
-  &-shopCart
-    display flex
-    align-items center
-    justify-content space-around
-    &__img
-      width 32px
-      height 29px
-    &-button
-      &__link
-        color #ffffff
-        background-color #f16d7f
-        line-height 39px
-        font-size 14px
-        font-weight 300
-        letter-spacing 0.35px
-        border 1px solid #e6e6e6
-        padding 10px 21px 9px 17px
-    &__link:hover
-      color #222222
-      text-decoration none
+	display flex
+	align-items center
+	&-logo
+		margin-top 15px
+		margin-bottom 15px
+		&__link
+			display block
+			padding 10px
+			margin-right 37px
+	//header-logo
+	&-toggle
+		&__button
+			&:active
+				color #fff!important
+				background-color #f16d7f
+	//header-toggle
+	&-collapse
+		width 100%
+		height 100%
+		display flex
+		align-items center
+		justify-content space-between
+		+responsive(sm)
+			justify-content center
+			flex-direction: column
+		&__item
+			&:nth-child(1)
+				+responsive(sm)
+					width 20.5em
+	//header-collapse
+	&-search
+		display flex
+		align-items center
+		justify-content start
+		flex-wrap nowrap
+		margin-top 15px
+		margin-bottom 15px
+		&__dropdownButton
+			position relative
+			height 39px
+			color #222222
+			font-size 14px
+			font-weight 300
+			letter-spacing 0.35px
+			background-color #f9f9f9
+			border-radius 3px 0 0 3px
+			border 1px solid #e6e6e6
+			padding 10px 20px 10px 17px
+			&::after
+				color #838383
+			&:hover
+				color #222222
+		&__form
+			height 100%
+			display flex
+			align-items center
+			flex-wrap nowrap
+			width 11em
+		&__input
+			height 39px
+			font-size 14px
+			letter-spacing 0.5px
+			border 1px solid #e6e6e6
+			border-radius 0
+			border-left 0
+			border-right 0
+			padding-left 7px
+			padding-right 7px
+			&:focus
+				box-shadow none
+				border-color #e6e6e6
+		&__button
+			width 35px
+			height 39px
+			font-size 14px
+			color #838383
+			background #ffffff
+			border-radius 0 3px 3px 0
+			border 1px solid #e6e6e6
+			&:hover
+				background-color #f16d7f
+				border-color #e6e6e6
+			&:active
+				box-shadow none!important
+				border-color #e6e6e6!important
+			&:focus
+				box-shadow none!important
+		&__fa
+			margin -1px
+	//header-search
+	&-basket
+		display flex
+		align-items center
+		justify-content space-around
+		margin-top 15px
+		margin-bottom 15px
+		+responsive(sm)
+			width 100%
+			justify-content center
+		&__item
+			&:nth-child(1)
+				margin-right 15px
+		&__link
+			width 100%
+			height 100%
+			+responsive(sm)
+				padding 10px
+		&__img
+			width 32px
+			height 29px
+			+responsive(sm)
+				width 42px
+				height 39px
+		&__button
+			height 39px
+			color #ffffff
+			background-color #f16d7f
+			font-size 14px
+			font-weight 300
+			letter-spacing 0.35px
+			text-decoration none
+			border 1px solid #e6e6e6
+			padding 10px 21px 9px 17px
+			&::after
+				color #FFFFFF
+			&:hover
+				color #FFFFFF
+	//header-basket
+	&-topNav
+		margin-top 15px
+		margin-bottom 15px
+		&__link
+			height: 100%
+			+responsive(sm)
+				padding 16px 30px!important
+				font-size 16px!important
+			&:active
+				border 1px solid #f16d7f
+		&__item
+			+responsive(sm)
+				text-align center

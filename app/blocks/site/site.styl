@@ -6,42 +6,48 @@
 	margin 0 auto
 	position relative
 	font-family baseFont
+	z-index 1
+	&__content
+		flex 1
 	&__header
 		box-shadow 0 0 0 rgba(0, 0, 0, 0.17)
 		border 1px solid #ececec
-	&__content
-		flex 1
+		position relative
+		z-index 10
+	&__topNav
+		position relative
+		z-index 8
 	&__cover
+		position relative
 		background-color #e8e8e8
 		margin-bottom 98px
+		z-index 1
 	&__categories
 		width 100%
 		height 100%
-		margin-bottom 20px
-		padding 0
+		margin-bottom 99px
+	&__catalog
+		width 100%
+		height 100%
+		margin-bottom 113px
 	&__offer
 		height 100%
 		margin-bottom 97px
 	&__comments
-		height 438px
+		height 100%
 		background-color #e8e8e8
 		background-image url("../img/bg-comments.jpg")
 		background-repeat no-repeat
 		background-position center
 		margin-bottom 97px
+	&__botNav
+		width 100%
+		height 100%
+		background-color #fff
+		margin-bottom 97px
 	&__footer
+		display flex
 		background-color footerBGColor
-
-
-.flexCenter
-	height 100%
-	display flex
-	align-items center
-
-.flexCenterSpaceBetween
-	display flex
-	align-items center
-	justify-content space-between
 
 .dropdownMarginTop
 	height 1em

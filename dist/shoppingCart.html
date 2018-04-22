@@ -12,66 +12,82 @@
   <body class="body">
     <div class="site">
       <header class="site__header">
-        <div class="navbar navbar-expand-lg container fixed-top-lg navbar-light header"><a class="header__logo" href="/"><img class="logo" alt="Logo" src="assets/img/logo.png"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="searchShopCart">
-              <div class="searchShopCart-left">
-                <nav class="header-search">
-                  <div class="nav-item dropdown"><a class="navbarDropdown dropdown-toggle header-search-button__link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Women</a>
-                      <div class="dropdown-divider" role="separator"></div><a class="dropdown-item" href="#">Dresses</a><a class="dropdown-item" href="#">Tops</a><a class="dropdown-item" href="#">Sweaters/Knits</a><a class="dropdown-item" href="#">Jackets/Coats</a><a class="dropdown-item" href="#">Blazers</a><a class="dropdown-item" href="#">Denim</a><a class="dropdown-item" href="#">Leggings/Pants</a><a class="dropdown-item" href="#">Skirts/Shorts</a><a class="dropdown-item" href="#">Accessories</a>
-                      <div class="dropdownMarginTop"></div><a class="dropdown-item" href="#">Man</a>
-                      <div class="dropdown-divider" role="separator"></div><a class="dropdown-item" href="#">Tees/Tank tops</a><a class="dropdown-item" href="#">Shirts/Polos</a><a class="dropdown-item" href="#">Sweaters</a><a class="dropdown-item" href="#">Sweatshirts/Hoodies</a><a class="dropdown-item" href="#">Blazers</a><a class="dropdown-item" href="#">Jackets/vests</a>
-                    </div>
+        <div class="navbar navbar-expand-lg container fixed-top-lg navbar-light header">
+          <div class="header-logo"><a class="header-logo__link" href="/"><img class="logo header-logo__img" alt="Logo" src="assets/img/logo.png"></a></div>
+          <!--.header-logo-->
+          <button class="navbar-toggler button header-toggle__button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon header-toggle__icon"></span></button>
+          <!--.header-toggle__button-->
+          <div class="collapse navbar-collapse header-collapse" id="navbarSupportedContent">
+            <div class="header-collapse__item">
+              <div class="header-search">
+                <div class="nav-item dropdown header-search__item"><a class="navbarDropdown dropdown-toggle button__link header-search__dropdownButton" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Browse</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Women</a>
+                    <div class="dropdown-divider" role="separator"></div><a class="dropdown-item" href="#">Dresses</a><a class="dropdown-item" href="#">Tops</a><a class="dropdown-item" href="#">Sweaters/Knits</a><a class="dropdown-item" href="#">Jackets/Coats</a><a class="dropdown-item" href="#">Blazers</a><a class="dropdown-item" href="#">Denim</a><a class="dropdown-item" href="#">Leggings/Pants</a><a class="dropdown-item" href="#">Skirts/Shorts</a><a class="dropdown-item" href="#">Accessories</a>
+                    <div class="dropdownMarginTop"></div><a class="dropdown-item" href="#">Man</a>
+                    <div class="dropdown-divider" role="separator"></div><a class="dropdown-item" href="#">Tees/Tank tops</a><a class="dropdown-item" href="#">Shirts/Polos</a><a class="dropdown-item" href="#">Sweaters</a><a class="dropdown-item" href="#">Sweatshirts/Hoodies</a><a class="dropdown-item" href="#">Blazers</a><a class="dropdown-item" href="#">Jackets/vests</a>
                   </div>
-                  <div class="header-search">
-                    <form class="form-inline header-search-form">
-                      <input class="form-control header-search-form__input" id="navbarDropdown" type="search" placeholder="Search for item..." aria-label="Search">
-                      <button class="btn btn-outline-success button header-search-form__button" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                  </div>
-                </nav>
+                  <!--.dropdown-menu-->
+                </div>
+                <!--.header-search__item.header-dropdownButton-->
+                <div class="header-search__item">
+                  <form class="form-inline header-search__form">
+                    <input class="form-control header-search__input" id="navbarDropdown" type="search" placeholder="Search for item..." aria-label="Search">
+                    <button class="btn btn-outline-success button header-search__button" type="submit"><i class="fas fa-search header-search__fa"></i></button>
+                  </form>
+                </div>
+                <!--.header-search__item > .header-search__form-->
               </div>
-              <div class="searchShopCart-right">
-                <div class="header-shopCart"><a class="header-shopCart__link" href="#"><img class="header-shopCart__item" alt="Basket" src="assets/img/basket.png"></a>
-                  <div class="nav-item dropdown"><a class="navbarDropdown dropdown-toggle header-shopCart-button__link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My account</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Действие</a><a class="dropdown-item" href="#">Еще действие</a>
-                      <div class="dropdown-divider" role="separator"></div><a class="dropdown-item" href="#">Что то еще</a>
-                    </div>
+              <!--.header-search-->
+            </div>
+            <!--.header-collapse__item > .header-search-->
+            <div class="header-collapse__item">
+              <div class="header-basket">
+                <div class="header-basket__item"><a class="button header-basket__link" href="#"><img class="header-basket__img" alt="Basket" src="assets/img/basket.png"></a></div>
+                <!--.header-basket__item-->
+                <div class="nav-item dropdown header-basket__item"><a class="navbarDropdown dropdown-toggle button__link header-basket__button" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My account</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Действие</a><a class="dropdown-item" href="#">Еще действие</a>
+                    <div class="dropdown-divider" role="separator"></div><a class="dropdown-item" href="#">Что то еще</a>
                   </div>
                 </div>
+                <!--.header-basket__item-->
               </div>
+              <!--.header-basket-->
             </div>
-            <nav class="header-menu d-xl-none d-lg-none d-md-none">
-              <ul class="nav navbar-nav header-top-nav">
-                <li class="top-nav__item"><a class="top-nav__link top-nav-content top-nav__link--active" href="#">home</a></li>
-                <li class="top-nav__item"><a class="top-nav__link top-nav-content" href="#">man</a></li>
-                <li class="top-nav__item"><a class="top-nav__link top-nav-content" href="#">women</a></li>
-                <li class="top-nav__item"><a class="top-nav__link top-nav-content" href="#">kids</a></li>
-                <li class="top-nav__item"><a class="top-nav__link top-nav-content" href="#">accessories</a></li>
-                <li class="top-nav__item"><a class="top-nav__link top-nav-content" href="#">featured</a></li>
-                <li class="top-nav__item"><a class="top-nav__link top-nav-content" href="#">hot deals</a></li>
+            <!--.header-collapse__item > .header-basket-->
+            <nav class="header-menu d-xl-none d-lg-none d-md-none header-collapse__item header-topNav">
+              <ul class="nav navbar-nav header-topNav__list">
+                <li class="topNav__item header-topNav__item"><a class="button topNav__link header-topNav__link topNav__link--active" href="#">home</a></li>
+                <li class="topNav__item header-topNav__item"><a class="button topNav__link header-topNav__link" href="#">man</a></li>
+                <li class="topNav__item header-topNav__item"><a class="button topNav__link header-topNav__link" href="#">women</a></li>
+                <li class="topNav__item header-topNav__item"><a class="button topNav__link header-topNav__link" href="#">kids</a></li>
+                <li class="topNav__item header-topNav__item"><a class="button topNav__link header-topNav__link" href="#">accessories</a></li>
+                <li class="topNav__item header-topNav__item"><a class="button topNav__link header-topNav__link" href="#">featured</a></li>
+                <li class="topNav__item header-topNav__item"><a class="button topNav__link header-topNav__link" href="#">hot deals</a></li>
               </ul>
             </nav>
+            <!--.header-collapse__item > .header-topNav-->
           </div>
+          <!--.header-collapse-->
         </div>
-      </header><!-- /.header -->
-      <section class="site__top-nav">
-        <div class="container">
-          <nav class="d-none d-lg-block d-xl-block">
-            <ul class="nav top-nav">
-              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link top-nav__link--active" href="#">home</a></li>
-              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">man</a></li>
-              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">women</a></li>
-              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">kids</a></li>
-              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">accessories</a></li>
-              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">featured</a></li>
-              <li class="nav-item top-nav__item"><a class="nav-link top-nav__link" href="#">hot deals</a></li>
+        <!--.header-->
+      </header>
+      <!--.site__header-->
+      <section class="site__topNav">
+        <div class="container topNav">
+          <nav class="d-none d-md-block d-lg-block d-xl-block">
+            <ul class="nav topNav__list">
+              <li class="button nav-item topNav__item"><a class="nav-link topNav__link topNav__link--active" href="#">home</a></li>
+              <li class="button nav-item topNav__item"><a class="nav-link topNav__link" href="#">man</a></li>
+              <li class="button nav-item topNav__item"><a class="nav-link topNav__link" href="#">women</a></li>
+              <li class="button nav-item topNav__item"><a class="nav-link topNav__link" href="#">kids</a></li>
+              <li class="button nav-item topNav__item"><a class="nav-link topNav__link" href="#">accessories</a></li>
+              <li class="button nav-item topNav__item"><a class="nav-link topNav__link" href="#">featured</a></li>
+              <li class="button nav-item topNav__item"><a class="nav-link topNav__link" href="#">hot deals</a></li>
             </ul>
           </nav>
         </div>
-      </section><!-- /.top-nav -->
+      </section>
+      <!--topNav-->
       <div class="site__content content">
         <div class="breadcrumbs">
           <div class="container">
@@ -469,53 +485,53 @@
         </div>
       </section>
       <!--comments-->
-      <section class="bot-nav">
-        <div class="container flexCenterSpaceBetween bot-nav__items">
-          <div class="bot-nav__item">
-            <div class="bot-nav__logo"><img class="logo" src="assets/img/logo.png" alt="Logo"></div>
-            <div class="bot-nav__text">
-              <p>Objectively transition extensive data rather than cross functional solutions. Monotonically syndicate multidisciplinary materials before go forward benefits. Intrinsically syndicate an expanded array of processes and cross-unit partnerships.</p>
-              <p>Efficiently plagiarize 24/365 action items and focused intermediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+      <section class="site__botNav">
+        <div class="container botNav">
+          <div class="botNav__item">
+            <div class="botNav__logo"><img class="logo" src="assets/img/logo.png" alt="Logo"></div>
+            <div class="botNav__text">
+              <p class="botNav__description">Objectively transition extensive data rather than cross functional solutions. Monotonically syndicate multidisciplinary materials before go forward benefits. Intrinsically syndicate an expanded array of processes and cross-unit partnerships.</p>
+              <p class="botNav__description">Efficiently plagiarize 24/365 action items and focused intermediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
             </div>
           </div>
-          <div class="bot-nav-menu">
-            <nav class="bot-nav-menu__items">
-              <div class="bot-nav-menu__item">company</div>
-              <div class="bot-nav-menu__links"><a href="#">Home</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Shop</a></div>
-              <div class="bot-nav-menu__links"><a href="#">About</a></div>
-              <div class="bot-nav-menu__links"><a href="#">How It Works</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Contact</a></div>
+          <div class="botNav__item botNav-menu">
+            <nav class="botNav-menu__items">
+              <div class="botNav-menu__title">company</div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Home</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Shop</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">About</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">How It Works</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Contact</a></div>
             </nav>
-            <div class="bot-nav-menu__items">
-              <div class="bot-nav-menu__item">information</div>
-              <div class="bot-nav-menu__links"><a href="#">Terms & Condition</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Privacy Policy</a></div>
-              <div class="bot-nav-menu__links"><a href="#">How to Buy</a></div>
-              <div class="bot-nav-menu__links"><a href="#">How to Sell</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Promotion</a></div>
+            <div class="botNav-menu__items">
+              <div class="botNav-menu__title">information</div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Terms & Condition</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Privacy Policy</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">How to Buy</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">How to Sell</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Promotion</a></div>
             </div>
-            <div class="bot-nav-menu__items">
-              <div class="bot-nav-menu__item">shop category</div>
-              <div class="bot-nav-menu__links"><a href="#">Men</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Women</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Child</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Apparel</a></div>
-              <div class="bot-nav-menu__links"><a href="#">Brows All</a></div>
+            <div class="botNav-menu__items">
+              <div class="botNav-menu__title">shop category</div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Men</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Women</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Child</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Apparel</a></div>
+              <div class="botNav-menu__item"><a class="button botNav-menu__link" href="#">Brows All</a></div>
             </div>
           </div>
         </div>
       </section>
-      <!--bot-nav-->
+      <!--.site__botNav-->
       <footer class="site__footer">
-        <div class="container flexCenterSpaceBetween footer">
+        <div class="container footer">
           <p class="footer__p">© 2017  Brand  All Rights Reserved.</p>
           <div class="footer__items">
-            <div class="footer__item"><a class="footer__link footer__link__fb" href="#"><i class="fab fa-facebook-f"></i></a></div>
-            <div class="footer__item"><a class="footer__link" href="#"><i class="fab fa-twitter"></i></a></div>
-            <div class="footer__item"><a class="footer__link footer__link__linkedIn" href="#"><i class="fab fa-linkedin-in"></i></a></div>
-            <div class="footer__item"><a class="footer__link footer__link__pin" href="#"><i class="fab fa-pinterest-p"></i></a></div>
-            <div class="footer__item"><a class="footer__link footer__link__google" href="#"><i class="fab fa-google-plus-g"></i></a></div>
+            <div class="button footer__item"><a class="footer__link footer__link__fb" href="#"><i class="fab fa-facebook-f"></i></a></div>
+            <div class="button footer__item"><a class="footer__link" href="#"><i class="fab fa-twitter"></i></a></div>
+            <div class="button footer__item"><a class="footer__link footer__link__linkedIn" href="#"><i class="fab fa-linkedin-in"></i></a></div>
+            <div class="button footer__item"><a class="footer__link footer__link__pin" href="#"><i class="fab fa-pinterest-p"></i></a></div>
+            <div class="button footer__item"><a class="footer__link footer__link__google" href="#"><i class="fab fa-google-plus-g"></i></a></div>
           </div>
         </div>
       </footer><!-- /.footer -->

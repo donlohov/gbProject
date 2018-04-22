@@ -1,69 +1,81 @@
 header.site__header
-  .navbar.navbar-expand-lg.container.fixed-top-lg.navbar-light.header
-    a.header__logo(href='/')
-      img.logo(alt='Logo' src='assets/img/logo.png')
-    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
-      span.navbar-toggler-icon
-    #navbarSupportedContent.collapse.navbar-collapse
-      .searchShopCart
-        .searchShopCart-left
-          nav.header-search
-            .nav-item.dropdown
-              a.navbarDropdown.dropdown-toggle.header-search-button__link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                | Browse
-              .dropdown-menu(aria-labelledby='navbarDropdown')
-                a.dropdown-item(href='#') Women
-                .dropdown-divider(role='separator')
-                a.dropdown-item(href='#') Dresses
-                a.dropdown-item(href='#') Tops
-                a.dropdown-item(href='#') Sweaters/Knits
-                a.dropdown-item(href='#') Jackets/Coats
-                a.dropdown-item(href='#') Blazers
-                a.dropdown-item(href='#') Denim
-                a.dropdown-item(href='#') Leggings/Pants
-                a.dropdown-item(href='#') Skirts/Shorts
-                a.dropdown-item(href='#') Accessories
-                .dropdownMarginTop
-                a.dropdown-item(href='#') Man
-                .dropdown-divider(role='separator')
-                a.dropdown-item(href='#') Tees/Tank tops
-                a.dropdown-item(href='#') Shirts/Polos
-                a.dropdown-item(href='#') Sweaters
-                a.dropdown-item(href='#') Sweatshirts/Hoodies
-                a.dropdown-item(href='#') Blazers
-                a.dropdown-item(href='#') Jackets/vests
-
-            .header-search
-              form.form-inline.header-search-form
-                input.form-control.header-search-form__input(id='navbarDropdown' type='search', placeholder='Search for item...', aria-label='Search')
-                button.btn.btn-outline-success.button.header-search-form__button(type='submit')
-                  i.fas.fa-search
-        .searchShopCart-right
-          .header-shopCart
-            a.header-shopCart__link(href='#')
-              img.header-shopCart__item(alt='Basket' src='assets/img/basket.png')
-            .nav-item.dropdown
-              a.navbarDropdown.dropdown-toggle.header-shopCart-button__link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                | My account
-              .dropdown-menu(aria-labelledby='navbarDropdown')
-                a.dropdown-item(href='#') Действие
-                a.dropdown-item(href='#') Еще действие
-                .dropdown-divider(role='separator')
-                a.dropdown-item(href='#') Что то еще
-      nav.header-menu.d-xl-none.d-lg-none.d-md-none
-        ul.nav.navbar-nav.header-top-nav
-          li.top-nav__item
-            a.top-nav__link.top-nav-content.top-nav__link--active(href='#') home
-          li.top-nav__item
-            a.top-nav__link.top-nav-content(href='#') man
-          li.top-nav__item
-            a.top-nav__link.top-nav-content(href='#') women
-          li.top-nav__item
-            a.top-nav__link.top-nav-content(href='#') kids
-          li.top-nav__item
-            a.top-nav__link.top-nav-content(href='#') accessories
-          li.top-nav__item
-            a.top-nav__link.top-nav-content(href='#') featured
-          li.top-nav__item
-            a.top-nav__link.top-nav-content(href='#') hot deals
-<!-- /.header -->
+	.navbar.navbar-expand-lg.container.fixed-top-lg.navbar-light.header
+		.header-logo
+			a.header-logo__link(href='/')
+				img.logo.header-logo__img(alt='Logo' src='assets/img/logo.png')
+		//.header-logo
+		button.navbar-toggler.button.header-toggle__button(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+			span.navbar-toggler-icon.header-toggle__icon
+		//.header-toggle__button
+		#navbarSupportedContent.collapse.navbar-collapse.header-collapse
+			.header-collapse__item
+				.header-search
+					.nav-item.dropdown.header-search__item
+						a.navbarDropdown.dropdown-toggle.button__link.header-search__dropdownButton(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') Browse
+						.dropdown-menu(aria-labelledby='navbarDropdown')
+							a.dropdown-item(href='#') Women
+							.dropdown-divider(role='separator')
+							a.dropdown-item(href='#') Dresses
+							a.dropdown-item(href='#') Tops
+							a.dropdown-item(href='#') Sweaters/Knits
+							a.dropdown-item(href='#') Jackets/Coats
+							a.dropdown-item(href='#') Blazers
+							a.dropdown-item(href='#') Denim
+							a.dropdown-item(href='#') Leggings/Pants
+							a.dropdown-item(href='#') Skirts/Shorts
+							a.dropdown-item(href='#') Accessories
+							.dropdownMarginTop
+							a.dropdown-item(href='#') Man
+							.dropdown-divider(role='separator')
+							a.dropdown-item(href='#') Tees/Tank tops
+							a.dropdown-item(href='#') Shirts/Polos
+							a.dropdown-item(href='#') Sweaters
+							a.dropdown-item(href='#') Sweatshirts/Hoodies
+							a.dropdown-item(href='#') Blazers
+							a.dropdown-item(href='#') Jackets/vests
+						//.dropdown-menu
+					//.header-search__item.header-dropdownButton
+					.header-search__item
+						form.form-inline.header-search__form
+							input.form-control.header-search__input(id='navbarDropdown' type='search', placeholder='Search for item...', aria-label='Search')
+							button.btn.btn-outline-success.button.header-search__button(type='submit')
+								i.fas.fa-search.header-search__fa
+					//.header-search__item > .header-search__form
+				//.header-search
+			//.header-collapse__item > .header-search
+			.header-collapse__item
+				.header-basket
+					.header-basket__item
+						a.button.header-basket__link(href='#')
+							img.header-basket__img(alt='Basket' src='assets/img/basket.png')
+					//.header-basket__item
+					.nav-item.dropdown.header-basket__item
+						a.navbarDropdown.dropdown-toggle.button__link.header-basket__button(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') My account
+						.dropdown-menu(aria-labelledby='navbarDropdown')
+							a.dropdown-item(href='#') Действие
+							a.dropdown-item(href='#') Еще действие
+							.dropdown-divider(role='separator')
+							a.dropdown-item(href='#') Что то еще
+					//.header-basket__item
+				//.header-basket
+			//.header-collapse__item > .header-basket
+			nav.header-menu.d-xl-none.d-lg-none.d-md-none.header-collapse__item.header-topNav
+				ul.nav.navbar-nav.header-topNav__list
+					li.topNav__item.header-topNav__item
+						a.button.topNav__link.header-topNav__link.topNav__link--active(href='#') home
+					li.topNav__item.header-topNav__item
+						a.button.topNav__link.header-topNav__link(href='#') man
+					li.topNav__item.header-topNav__item
+						a.button.topNav__link.header-topNav__link(href='#') women
+					li.topNav__item.header-topNav__item
+						a.button.topNav__link.header-topNav__link(href='#') kids
+					li.topNav__item.header-topNav__item
+						a.button.topNav__link.header-topNav__link(href='#') accessories
+					li.topNav__item.header-topNav__item
+						a.button.topNav__link.header-topNav__link(href='#') featured
+					li.topNav__item.header-topNav__item
+						a.button.topNav__link.header-topNav__link(href='#') hot deals
+			//.header-collapse__item > .header-topNav
+		//.header-collapse
+	//.header
+//.site__header
