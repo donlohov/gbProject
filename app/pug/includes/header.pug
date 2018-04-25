@@ -1,12 +1,10 @@
-header.site__header
-	.navbar.navbar-expand-lg.container.fixed-top-lg.navbar-light.header
+header.site__header.header
+	.navbar.navbar-expand-md.container.fixed-top-lg.navbar-light
 		.header-logo
 			a.header-logo__link(href='/')
-				img.logo.header-logo__img(alt='Logo' src='assets/img/logo.png')
-		//.header-logo
+				img.logo.header-logo__img(alt='Logo' src='assets/img/icons/logo/logo.png')
 		button.navbar-toggler.button.header-toggle__button(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
 			span.navbar-toggler-icon.header-toggle__icon
-		//.header-toggle__button
 		#navbarSupportedContent.collapse.navbar-collapse.header-collapse
 			.header-collapse__item
 				.header-search
@@ -33,22 +31,16 @@ header.site__header
 							a.dropdown-item(href='#') Sweatshirts/Hoodies
 							a.dropdown-item(href='#') Blazers
 							a.dropdown-item(href='#') Jackets/vests
-						//.dropdown-menu
-					//.header-search__item.header-dropdownButton
 					.header-search__item
-						form.form-inline.header-search__form
-							input.form-control.header-search__input(id='navbarDropdown' type='search', placeholder='Search for item...', aria-label='Search')
-							button.btn.btn-outline-success.button.header-search__button(type='submit')
+						form.header-search__form
+							input.form__input.form-control.header-search__input(id='navbarDropdown' type='search', placeholder='Search for item...', aria-label='Search')
+							button.btn.btn-outline-success.form__submit.button.header-search__button(type='submit')
 								i.fas.fa-search.header-search__fa
-					//.header-search__item > .header-search__form
-				//.header-search
-			//.header-collapse__item > .header-search
 			.header-collapse__item
 				.header-basket
 					.header-basket__item
 						a.button.header-basket__link(href='#')
-							img.header-basket__img(alt='Basket' src='assets/img/basket.png')
-					//.header-basket__item
+							img.header-basket__img(alt='Basket' src='assets/img/icons/basket/basket@2x.png')
 					.nav-item.dropdown.header-basket__item
 						a.navbarDropdown.dropdown-toggle.button__link.header-basket__button(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false') My account
 						.dropdown-menu(aria-labelledby='navbarDropdown')
@@ -56,26 +48,19 @@ header.site__header
 							a.dropdown-item(href='#') Еще действие
 							.dropdown-divider(role='separator')
 							a.dropdown-item(href='#') Что то еще
-					//.header-basket__item
-				//.header-basket
-			//.header-collapse__item > .header-basket
 			nav.header-menu.d-xl-none.d-lg-none.d-md-none.header-collapse__item.header-topNav
 				ul.nav.navbar-nav.header-topNav__list
 					li.topNav__item.header-topNav__item
-						a.button.topNav__link.header-topNav__link.topNav__link--active(href='#') home
+						a.button__link.topNav__link.header-topNav__link.header-topNav__link--active(href='#') home
 					li.topNav__item.header-topNav__item
-						a.button.topNav__link.header-topNav__link(href='#') man
+						a.button__link.topNav__link.header-topNav__link(href='#') man
 					li.topNav__item.header-topNav__item
-						a.button.topNav__link.header-topNav__link(href='#') women
+						a.button__link.topNav__link.header-topNav__link(href='#') women
 					li.topNav__item.header-topNav__item
-						a.button.topNav__link.header-topNav__link(href='#') kids
+						a.button__link.topNav__link.header-topNav__link(href='#') kids
 					li.topNav__item.header-topNav__item
-						a.button.topNav__link.header-topNav__link(href='#') accessories
+						a.button__link.topNav__link.header-topNav__link(href='#') accessories
 					li.topNav__item.header-topNav__item
-						a.button.topNav__link.header-topNav__link(href='#') featured
+						a.button__link.topNav__link.header-topNav__link(href='#') featured
 					li.topNav__item.header-topNav__item
-						a.button.topNav__link.header-topNav__link(href='#') hot deals
-			//.header-collapse__item > .header-topNav
-		//.header-collapse
-	//.header
-//.site__header
+						a.button__link.topNav__link.header-topNav__link(href='#') hot deals

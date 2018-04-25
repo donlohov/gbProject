@@ -2,20 +2,17 @@
 .header
 	display flex
 	align-items center
+	justify-content space-between
+	padding 23px 0
 	&-logo
-		margin-top 15px
-		margin-bottom 15px
 		&__link
 			display block
-			padding 10px
 			margin-right 37px
-	//header-logo
 	&-toggle
 		&__button
 			&:active
-				color #fff!important
-				background-color #f16d7f
-	//header-toggle
+				color whiteColor!important
+				background-color accentColor
 	&-collapse
 		width 100%
 		height 100%
@@ -23,85 +20,86 @@
 		align-items center
 		justify-content space-between
 		+responsive(sm)
+			justify-content space-around
+			margin-top 40px
+			flex-wrap wrap
+		+responsive(xs)
+			margin-top 12px
 			justify-content center
-			flex-direction: column
+			flex-direction column
 		&__item
 			&:nth-child(1)
-				+responsive(sm)
-					width 20.5em
-	//header-collapse
+				+responsive(xs)
+					margin-bottom 15px
 	&-search
+		height 39px
 		display flex
 		align-items center
 		justify-content start
 		flex-wrap nowrap
-		margin-top 15px
-		margin-bottom 15px
+		&__item
+			height inherit
 		&__dropdownButton
 			position relative
-			height 39px
+			height inherit
 			color #222222
 			font-size 14px
 			font-weight 300
 			letter-spacing 0.35px
-			background-color #f9f9f9
+			background-color moreLightColor
 			border-radius 3px 0 0 3px
-			border 1px solid #e6e6e6
+			border 1px solid lightColor
 			padding 10px 20px 10px 17px
 			&::after
-				color #838383
+				color grayColor
 			&:hover
-				color #222222
+				color baseColor
 		&__form
-			height 100%
+			height inherit
 			display flex
+			justify-content space-around
 			align-items center
 			flex-wrap nowrap
-			width 11em
 		&__input
-			height 39px
+			width 280px
+			height inherit
 			font-size 14px
 			letter-spacing 0.5px
-			border 1px solid #e6e6e6
+			border 1px solid lightColor
 			border-radius 0
 			border-left 0
 			border-right 0
-			padding-left 7px
-			padding-right 7px
-			&:focus
-				box-shadow none
-				border-color #e6e6e6
+			padding 0 7px
+			+responsive(md)
+				width 20vw
+			+responsive(sm)
+				width 25vw
+			+responsive(xs)
+				width 50vw
 		&__button
-			width 35px
-			height 39px
+			width 37px
+			height inherit
 			font-size 14px
-			color #838383
-			background #ffffff
+			color grayColor
+			background whiteColor
 			border-radius 0 3px 3px 0
-			border 1px solid #e6e6e6
+			border 1px solid lightColor
 			&:hover
-				background-color #f16d7f
-				border-color #e6e6e6
-			&:active
-				box-shadow none!important
-				border-color #e6e6e6!important
-			&:focus
-				box-shadow none!important
+				background-color accentColor
 		&__fa
-			margin -1px
-	//header-search
+			margin-left -2px
+
 	&-basket
 		display flex
 		align-items center
 		justify-content space-around
-		margin-top 15px
-		margin-bottom 15px
 		+responsive(sm)
-			width 100%
 			justify-content center
 		&__item
 			&:nth-child(1)
 				margin-right 15px
+				+responsive(sm)
+					margin-right 5px
 		&__link
 			width 100%
 			height 100%
@@ -110,34 +108,63 @@
 		&__img
 			width 32px
 			height 29px
-			+responsive(sm)
-				width 42px
-				height 39px
 		&__button
 			height 39px
-			color #ffffff
-			background-color #f16d7f
+			color whiteColor
+			background-color accentColor
 			font-size 14px
 			font-weight 300
 			letter-spacing 0.35px
 			text-decoration none
-			border 1px solid #e6e6e6
-			padding 10px 21px 9px 17px
+			border 1px solid lightColor
+			padding-left 29px
+			padding-right 25px
 			&::after
-				color #FFFFFF
+				color whiteColor
 			&:hover
-				color #FFFFFF
-	//header-basket
+				color whiteColor
 	&-topNav
-		margin-top 15px
-		margin-bottom 15px
-		&__link
-			height: 100%
+		width 90vw
+		+responsive(sm)
+			margin-top 40px
+		+responsive(xs)
+			width 50vw
+		&__list
 			+responsive(sm)
-				padding 16px 30px!important
-				font-size 16px!important
+				flex-direction row
+				justify-content center
+			+responsive(xs)
+				flex-direction column
+		&__item
+			+responsive(sm)
+				box-shadow 2px hoff baseColor
+				margin 1.1vw
+			+responsive(xs)
+				margin 5px
 			&:active
-				border 1px solid #f16d7f
+				background-color moreLightColor
+		&__link
+			+responsive(sm)
+				font-size 16px!important
+				padding 16px 30px!important
+				border-radius 4px
+				box-shadow 0 1px 0 0 rgba(0, 0, 0, 0.17)
+			&--active
+				color grayColor!important
+				font-weight 600!important
+				transform scale(.97)
+				border 1px solid #e6e6e6
+				background-color moreLightColor
+				box-shadow none!important
+				cursor not-allowed
+				opacity .8!important
+				&:hover
+					transform scale(.97)!important
+					opacity .7!important
+				&:active
+					color grayColor!important
+					opacity .7!important
+					transform scale(.97)!important
 		&__item
 			+responsive(sm)
 				text-align center

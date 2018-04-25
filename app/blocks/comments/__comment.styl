@@ -1,0 +1,54 @@
+/*.comment*/
+.comment
+	width 100%
+	height 100%
+	display flex
+	justify-content space-between
+	flex-wrap nowrap
+	padding-bottom 5vw
+	+responsive(xss)
+		display flex
+		flex-direction column
+		padding 0
+	&__item
+		&:nth-child(1)
+			width 24%
+			margin-bottom 5px
+			+responsive(xss)
+				display flex
+				align-items center
+	&__img
+		width 80px
+		height 80px
+	&__text
+		font-style italic
+		font-size 16px
+		text-align left
+		line-height 24px
+		letter-spacing .1
+		color rgba(34, 34, 36, 0.67)
+		padding-right 5vw
+		+responsive(xss)
+			padding 5px 0 5px 0
+	&__autor
+		position relative
+	&-autor
+		width 100%
+		position absolute
+		margin-left 8vw
+		+responsive(xss)
+			position relative
+		&__name
+			text-align left
+			line-height 16px
+			font-size 16px
+			font-weight 700
+			color accentColor
+			margin 0
+		&__location
+			text-align left
+			line-height 14px
+			font-size 12px
+			font-weight 300
+			color baseColor
+			margin 0

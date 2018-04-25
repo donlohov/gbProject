@@ -1,5 +1,9 @@
+.container
+	max-width lg
+	box-sizing border-box
+	margin 0 auto
 .site
-	background-color lightColor
+	background-color whiteColor
 	width 100%
 	min-width siteMinWidth
 	min-height 100%
@@ -11,7 +15,7 @@
 		flex 1
 	&__header
 		box-shadow 0 0 0 rgba(0, 0, 0, 0.17)
-		border 1px solid #ececec
+		border 1px solid lightColor
 		position relative
 		z-index 10
 	&__topNav
@@ -19,7 +23,7 @@
 		z-index 8
 	&__cover
 		position relative
-		background-color #e8e8e8
+		background-color lightColor
 		margin-bottom 98px
 		z-index 1
 	&__categories
@@ -33,17 +37,21 @@
 	&__offer
 		height 100%
 		margin-bottom 97px
-	&__comments
-		height 100%
-		background-color #e8e8e8
-		background-image url("../img/bg-comments.jpg")
+	&__commentsSubscribe
+		height 437px
+		background-color lightColor
+		background-image url("../img/bg/bg-comments.jpg")
 		background-repeat no-repeat
 		background-position center
 		margin-bottom 97px
+		+responsive(md)
+			background-image url("../img/bg/bg-comments--full.png")
+		+responsive(xss)
+			height 100%
 	&__botNav
 		width 100%
 		height 100%
-		background-color #fff
+		background-color whiteColor
 		margin-bottom 97px
 	&__footer
 		display flex

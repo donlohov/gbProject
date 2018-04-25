@@ -1,0 +1,26 @@
+/*.commentsSubscribe*/
+.commentsSubscribe
+	width inherit
+	height inherit
+	display flex
+	align-items center
+	justify-content space-around
+	+responsive(md)
+		flex-direction column-reverse
+		justify-content center
+		padding-top 3vw
+	&__comment
+		width 50vw
+		height 48%
+		padding 0
+		margin 0
+		+responsive(md)
+			width 70vw
+		+responsive(xs)
+			width 88vw
+	&__subscribe
+		width 50vw
+		padding 0
+		margin 0
+		+responsive(xs)
+			width 90vw
