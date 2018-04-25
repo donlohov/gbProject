@@ -1,50 +1,64 @@
 /*.comment*/
 .comment
 	width 100%
-	height 100%
+	height inherit
 	display flex
 	justify-content space-between
 	flex-wrap nowrap
-	padding-bottom 5vw
-	+responsive(xss)
+	+responsive(xs)
 		display flex
 		flex-direction column
 		padding 0
 	&__item
+		height inherit
 		&:nth-child(1)
-			width 24%
-			margin-bottom 5px
-			+responsive(xss)
+			+responsive(xs)
 				display flex
 				align-items center
+			+responsive(xss)
+				flex-direction column
+				margin 0 auto
 	&__img
-		width 80px
-		height 80px
+		width 82px
+		height 81px
 	&__text
 		font-style italic
 		font-size 16px
 		text-align left
-		line-height 24px
-		letter-spacing .1
+		line-height 26px
 		color rgba(34, 34, 36, 0.67)
-		padding-right 5vw
+		padding .3vw 5vw 0 2.2vw
+		margin 0
 		+responsive(xss)
-			padding 5px 0 5px 0
+			text-align center
+			padding 0
 	&__autor
 		position relative
 	&-autor
-		width 100%
+		min-width 29vw
 		position absolute
-		margin-left 8vw
-		+responsive(xss)
+		letter-spacing .59px
+		margin-left 6.9rem
+		margin-top 1vw
+		+responsive(sm)
+			margin-left 0
+		+responsive(xs)
 			position relative
+			margin-left 1rem
+			margin-top 2rem
+		+responsive(xss)
+			text-align center
+			margin 8px
 		&__name
+			width 100%
 			text-align left
 			line-height 16px
 			font-size 16px
 			font-weight 700
 			color accentColor
 			margin 0
+			+responsive(xss)
+				text-align center
 		&__location
 			text-align left
 			line-height 14px
@@ -52,3 +66,5 @@
 			font-weight 300
 			color baseColor
 			margin 0
+			+responsive(xss)
+				text-align center
