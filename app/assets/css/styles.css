@@ -1074,18 +1074,20 @@
   height: 29px;
 }
 .header-basket__button {
-  height: 39px;
+  width: 130px;
+  line-height: 39px;
   color: #fff;
   background-color: #ef5b70;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.35px;
+  text-align: center;
   text-decoration: none;
   border: 1px solid #e6e6e6;
-  padding-left: 29px;
-  padding-right: 25px;
+  border-radius: 5px;
 }
 .header-basket__button::after {
+  top: 8px;
   color: #fff;
 }
 .header-basket__button:hover {
@@ -1206,7 +1208,6 @@ a:hover {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.35px;
-  border: 1px solid #e6e6e6;
   transition: -webkit-transform 0.2s ease-in;
   transition: transform 0.2s ease-in;
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
@@ -1221,8 +1222,7 @@ a:hover {
           transform: scale(0.99);
 }
 .button__link::after {
-  position: absolute;
-  margin-left: 3px;
+  margin-right: -8px;
   margin-top: 8px;
 }
 .logo {

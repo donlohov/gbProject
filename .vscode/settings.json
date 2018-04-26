@@ -28,7 +28,7 @@
   // Сохранение файла
   "files.autoSave": "afterDelay",
   // Настройте масштаб окна.
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 1,
   // Размер шрифта и шрифт
   "editor.fontSize": 13,
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -43,7 +43,7 @@
   // Определяет, какой редактор отображается при запуске
   "workbench.startupEditor": "newUntitledFile",
   // Определяет расположение боковой панели: слева или справа от рабочего места.
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
 
   "emmet.excludeLanguages": [
     "pug"
