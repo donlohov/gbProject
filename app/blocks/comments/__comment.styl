@@ -1,7 +1,5 @@
 /*.comment*/
 .comment
-	width 100%
-	height inherit
 	display flex
 	justify-content space-between
 	flex-wrap nowrap
@@ -12,12 +10,15 @@
 	&__item
 		height inherit
 		&:nth-child(1)
+			width 19%
 			+responsive(xs)
 				display flex
 				align-items center
 			+responsive(xss)
 				flex-direction column
 				margin 0 auto
+		&:nth-child(2)
+			width 79%
 	&__img
 		width 82px
 		height 81px
@@ -27,7 +28,7 @@
 		text-align left
 		line-height 26px
 		color rgba(34, 34, 36, 0.67)
-		padding .3vw 5vw 0 2.2vw
+		padding 0
 		margin 0
 		+responsive(xss)
 			text-align center

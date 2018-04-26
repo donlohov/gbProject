@@ -26,7 +26,7 @@
   // Открывать файл в новом окне
   "window.openFilesInNewWindow": "off",
   // Сохранение файла
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
   // Настройте масштаб окна.
   "window.zoomLevel": 1,
   // Размер шрифта и шрифт

@@ -502,11 +502,6 @@
   height: inherit;
   position: relative;
 }
-@media only screen and (max-width: 1024px) {
-  .carouselComment {
-    margin-top: 3px;
-  }
-}
 .carouselComment__item {
   height: inherit;
 }
@@ -531,8 +526,6 @@
   background-color: #ef5b70;
 }
 .comment {
-  width: 100%;
-  height: inherit;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
@@ -547,6 +540,9 @@
 .comment__item {
   height: inherit;
 }
+.comment__item:nth-child(1) {
+  width: 19%;
+}
 @media only screen and (max-width: 580px) {
   .comment__item:nth-child(1) {
     display: flex;
@@ -559,6 +555,9 @@
     margin: 0 auto;
   }
 }
+.comment__item:nth-child(2) {
+  width: 79%;
+}
 .comment__img {
   width: 82px;
   height: 81px;
@@ -569,7 +568,7 @@
   text-align: left;
   line-height: 26px;
   color: rgba(34,34,36,0.67);
-  padding: 0.3vw 5vw 0 2.2vw;
+  padding: 0;
   margin: 0;
 }
 @media only screen and (max-width: 419px) {
@@ -717,9 +716,9 @@
   margin: 0;
 }
 .commentsSubscribe__comment {
-  width: 49vw;
-  height: 16vw;
-  padding: 0;
+  width: 50%;
+  height: 100%;
+  padding: 24% 0 36% 0;
   margin: 0;
 }
 @media only screen and (max-width: 1024px) {
@@ -747,8 +746,9 @@
   }
 }
 .commentsSubscribe__subscribe {
-  width: 49vw;
-  padding: 0;
+  width: 50%;
+  height: 100%;
+  padding: 25% 5%;
   margin: 0;
 }
 @media only screen and (max-width: 1024px) {
@@ -2332,11 +2332,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 97px;
-}
-@media only screen and (max-width: 1024px) {
-  .site__commentsSubscribe {
-    background-image: url("../img/bg/bg-comments--full.png");
-  }
 }
 @media only screen and (max-width: 419px) {
   .site__commentsSubscribe {
