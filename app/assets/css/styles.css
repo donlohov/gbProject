@@ -499,7 +499,7 @@
   padding-right: 29px;
 }
 .carouselComment {
-  height: inherit;
+  height: 100%;
   position: relative;
 }
 .carouselComment__item {
@@ -549,14 +549,14 @@
     align-items: center;
   }
 }
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 768px) {
   .comment__item:nth-child(1) {
     flex-direction: column;
     margin: 0 auto;
   }
 }
 .comment__item:nth-child(2) {
-  width: 79%;
+  width: 100%;
 }
 .comment__img {
   width: 82px;
@@ -571,10 +571,9 @@
   padding: 0;
   margin: 0;
 }
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 768px) {
   .comment__text {
     text-align: center;
-    padding: 0;
   }
 }
 .comment__autor {
@@ -589,20 +588,17 @@
 }
 @media only screen and (max-width: 768px) {
   .comment-autor {
-    margin-left: 0;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 580px) {
   .comment-autor {
     position: relative;
-    margin-left: 1rem;
-    margin-top: 2rem;
   }
 }
 @media only screen and (max-width: 419px) {
   .comment-autor {
     text-align: center;
-    margin: 8px;
   }
 }
 .comment-autor__name {
@@ -614,7 +610,7 @@
   color: #ef5b70;
   margin: 0;
 }
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 768px) {
   .comment-autor__name {
     text-align: center;
   }
@@ -627,7 +623,7 @@
   color: #222224;
   margin: 0;
 }
-@media only screen and (max-width: 419px) {
+@media only screen and (max-width: 768px) {
   .comment-autor__location {
     text-align: center;
   }
@@ -712,48 +708,40 @@
   }
 }
 .commentsSubscribe__carouselComment {
+  height: 100%;
   padding: 0;
   margin: 0;
 }
 .commentsSubscribe__comment {
   width: 50%;
   height: 100%;
-  padding: 24% 0 36% 0;
+  padding: 10% 5% 14.5% 0;
   margin: 0;
 }
 @media only screen and (max-width: 1024px) {
   .commentsSubscribe__comment {
-    width: 80vw;
-    height: 17vw;
-    margin-top: 4vw;
+    width: 56%;
+    height: 70%;
+    padding: 3% 5% 3% 0;
   }
 }
 @media only screen and (max-width: 768px) {
   .commentsSubscribe__comment {
-    height: 22vw;
-  }
-}
-@media only screen and (max-width: 580px) {
-  .commentsSubscribe__comment {
-    height: 32vw;
-    margin-top: 0;
-  }
-}
-@media only screen and (max-width: 419px) {
-  .commentsSubscribe__comment {
-    width: 99%;
-    height: 60vw;
+    width: 90%;
+    padding: 0;
   }
 }
 .commentsSubscribe__subscribe {
   width: 50%;
   height: 100%;
-  padding: 25% 5%;
+  padding: 13% 3% 1% 0;
   margin: 0;
 }
 @media only screen and (max-width: 1024px) {
   .commentsSubscribe__subscribe {
-    width: 80vw;
+    width: 100%;
+    height: 50%;
+    padding: 5% 0 0 0;
   }
 }
 @media only screen and (max-width: 580px) {

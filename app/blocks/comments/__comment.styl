@@ -14,11 +14,11 @@
 			+responsive(xs)
 				display flex
 				align-items center
-			+responsive(xss)
+			+responsive(sm)
 				flex-direction column
 				margin 0 auto
 		&:nth-child(2)
-			width 79%
+			width 100%
 	&__img
 		width 82px
 		height 81px
@@ -30,9 +30,8 @@
 		color rgba(34, 34, 36, 0.67)
 		padding 0
 		margin 0
-		+responsive(xss)
+		+responsive(sm)
 			text-align center
-			padding 0
 	&__autor
 		position relative
 	&-autor
@@ -42,14 +41,14 @@
 		margin-left 6.9rem
 		margin-top 1vw
 		+responsive(sm)
-			margin-left 0
+			margin 0
 		+responsive(xs)
 			position relative
-			margin-left 1rem
-			margin-top 2rem
+		//	margin-left 1rem
+		//	margin-top 2rem
 		+responsive(xss)
 			text-align center
-			margin 8px
+		//	margin 8px
 		&__name
 			width 100%
 			text-align left
@@ -58,7 +57,7 @@
 			font-weight 700
 			color accentColor
 			margin 0
-			+responsive(xss)
+			+responsive(sm)
 				text-align center
 		&__location
 			text-align left
@@ -67,5 +66,5 @@
 			font-weight 300
 			color baseColor
 			margin 0
-			+responsive(xss)
+			+responsive(sm)
 				text-align center
