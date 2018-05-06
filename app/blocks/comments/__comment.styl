@@ -10,18 +10,21 @@
 	&__item
 		height inherit
 		&:nth-child(1)
-			width 19%
+			margin-right 20px
 			+responsive(xs)
 				display flex
 				align-items center
 			+responsive(sm)
 				flex-direction column
 				margin 0 auto
+				padding-bottom 15px
 		&:nth-child(2)
 			width 100%
 	&__img
 		width 82px
 		height 81px
+		+responsive(sm)
+			margin-bottom 10px
 	&__text
 		font-style italic
 		font-size 16px
@@ -38,8 +41,8 @@
 		min-width 29vw
 		position absolute
 		letter-spacing .59px
-		margin-left 6.9rem
-		margin-top 1vw
+		margin-left 100px
+		margin-top 10px
 		+responsive(sm)
 			margin 0
 		+responsive(xs)
