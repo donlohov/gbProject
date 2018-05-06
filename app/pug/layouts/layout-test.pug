@@ -1,0 +1,11 @@
+doctype html
+html
+	include ../includes/head
+	body.body
+		.site.mySite
+			include ../includes/header
+			.site__content.content.myContent
+				block site__content
+			include ../includes/footer
+		script(src='assets/js/vendor.min.js')
+		script(src='assets/js/scripts.min.js')

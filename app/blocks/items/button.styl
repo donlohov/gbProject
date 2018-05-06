@@ -1,8 +1,4 @@
 // button
-a
-	color baseColor
-	&:hover
-		text-decoration none
 .button
 	display block
 	transition transform .2s ease-in, color .2s ease-in-out, background-color .2s ease-in-out
@@ -13,9 +9,8 @@ a
 	&__link
 		display block
 		position relative
-		font-size 14px
-		font-weight 300
-		letter-spacing 0.35px
+		text-align center
+		text-decoration none
 		transition transform .2s ease-in
 		&:hover
 			transform scale(1.04)
@@ -23,5 +18,118 @@ a
 			opacity .8
 			transform scale(.99)
 		&::after
-			margin-right: -8px
-			margin-top 8px
+			font-size 14px
+
+
+//тестовые стили для замены
+.mySite
+	height 100vh
+	display flex
+	flex-direction column
+.myBlock
+	box-sizing border-box
+	font-size 14px
+	font-weight 300
+	letter-spacing .35px
+
+.myHeader
+	width 800px
+	height 130px
+	display flex
+	align-items center
+	border 1px solid btnBaseColor
+	margin 0 auto
+	&__item
+		width 100%
+		height 100%
+		display flex
+		align-items center
+		justify-content center
+		margin 0 auto
+	&__btn
+		width 8rem
+		height 39px
+
+//btn
+.myBtn
+	width inherit
+	height inherit
+	transition .2s ease-in, -webkit-transform .2s ease-in
+	&:hover
+		transform scale(1.01)
+	&:active
+		transform scale(.99)
+	&__item
+		width inherit
+		height inherit
+	&__link
+		width inherit
+		height inherit
+		display flex
+		align-items center
+		justify-content center
+		color inherit
+		font-size inherit
+		font-weight inherit
+		letter-spacing inherit
+	&--baseColor
+		color btnBaseColor
+		background-color btnBaseBgColor
+		border 1px solid btnBaseBdrColor
+		border-radius 0
+		font-size 14px
+		letter-spacing 1px
+		&:hover
+			color baseColor-hover
+		&:active
+			color btnBaseColor-active
+			background-color btnBaseBgColor-active
+	&--assentColor
+		color btnAssentColor
+		background-color btnAssentBgColor
+		border 1px solid btnAssentBdrColor
+		border-radius 0
+		font-size 16px
+		letter-spacing 1px
+		&:hover
+			color assentBgColor-active
+		&:active
+			color btnAssentColor-active
+			background-color btnAssentBgColor-active
+	&--active
+		color grayColor!important
+		font-weight 600!important
+		transform scale(.99)
+		border 1px solid #e6e6e6
+		background-color moreLightColor
+		box-shadow none!important
+		cursor not-allowed
+		opacity .8!important
+		&:hover
+			transform scale(.99)!important
+			opacity .7!important
+		&:active
+			color grayColor!important
+			opacity .7!important
+			transform scale(.99)!important
+	&-details
+		width inherit
+		height inherit
+		&__item
+			width inherit
+			height inherit
+		&__link
+			width inherit
+			height inherit
+			display flex
+			align-items center
+			justify-content center
+			color inherit
+			font-size inherit
+			font-weight inherit
+			letter-spacing inherit
+		&__list
+			text-align center
+			color btnBaseColor
+			background-color white
+			border 1px solid btnBaseBdrColor

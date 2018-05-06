@@ -1,11 +1,15 @@
-doctupe html
+doctype html
 html
-  include ../includes/head.pug
+  include ../includes/head
   body.body
     .site
-      include ../includes/header.pug
+      include ../includes/header
+      include ../includes/topNav
       .site__content.content
         block site__content
+      include ../includes/comments
+      include ../includes/botNav
       include ../includes/footer
-    script(src="assets/js/vendor.min.js")
-    script(src="assets/js/scripts.min.js")
+    <!-- /.site -->
+    script(src='assets/js/vendor.min.js')
+    script(src='assets/js/scripts.min.js')
