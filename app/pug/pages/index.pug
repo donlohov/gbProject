@@ -1,4 +1,4 @@
-extends ../layouts/layout.pug
+extends ../layouts/layouts
 
 block site__content
 	section.site__cover
@@ -8,16 +8,20 @@ block site__content
 					.carousel-inner
 						.carousel-item.active
 							img.d-block.cover__img(src='assets/img/bg/baner.png', alt='Первый слайд')
-							.carousel-caption.cover-text
-								h1.cover-text__title The Brand
-								p.cover-text__description of luxurious
-									span.cover-text__span fashion
-						//.carousel-item
-						//	img.d-block.cover__img(src='assets/img/bg/baner.png', alt='Второй слайд')
-						//	.carousel-caption.cover-text
-						//		h1.cover-text__title The Best
-						//		p.cover-text__description or nothing
-						//			span.cover-text__span clothes
+							.cover__item
+								.carousel-caption.cover-text
+									h1.cover-text__title The Brand
+									.cover-text__description
+										span.cover-text__span of luxurious
+										span.cover-text__span fashion
+						.carousel-item
+							img.d-block.cover__img(src='assets/img/bg/baner.png', alt='Первый слайд')
+							.cover__item
+								.carousel-caption.cover-text
+									h1.cover-text__title The Brand
+									.cover-text__description
+										span.cover-text__span of luxurious
+										span.cover-text__span fashion
 	section.site__categories.container
 		.categories
 			.categories-item
